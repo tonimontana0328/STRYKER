@@ -1,0 +1,31 @@
+MatPBRMulti {
+ MudOpacity 0.866
+ MudColor 0.808 0.808 0.808 1
+ MudDetNormal 0.25
+ MudBCRMap "{D608FA6C45C55A6F}Assets/_SharedData/Dirt/ST_Dirt02_BCR.edds"
+ MudNMOMap "{0EB8937BD911AEC9}Assets/_SharedData/Dirt/ST_Dirt_Sand_NMO.edds"
+ MudMaskMap "{441DC3A3D68D971E}Assets/_SharedData/DetailMask/ST_Metal_Peel_01_Mask1.edds"
+ DirtOpacity 0.364
+ DirtLayerSharpness 3.794
+ DirtColor 0.051 0.031 0.02 1
+ DirtRoughness 1
+ DirtMaskMap "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ Enabled_2 1
+ Color_2 0 0 0 1
+ BCR_2 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_2 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ Mask_2 "{A585D759C4C68372}Assets/_SharedData/DetailMask/ST_Rust_02_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5B2421479D2BEFAF}" {
+  TilingU 2
+  TilingV 2
+ }
+ Roughness_2 2.142
+ Color_1 0.733 0.733 0.733 1
+ BCR_1 "{9B97AA81EF1AAA3C}Assets/_SharedData/Dirt/ST_destruct_rust_BCR.edds"
+ NMO_1 "{EED041FE9CB208F1}Assets/_SharedData/Dirt/ST_Dirt02_NMO.edds"
+ UVTransform_1 MatUVTransform "{5B242147B8975411}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 2
+}

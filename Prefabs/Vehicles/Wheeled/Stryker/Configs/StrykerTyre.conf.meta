@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{29586630576AA426}Prefabs/Vehicles/Wheeled/Stryker/StrykerTyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

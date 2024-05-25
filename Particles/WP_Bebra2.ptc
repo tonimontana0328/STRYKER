@@ -1,0 +1,148 @@
+EffectDef {
+ MinFPS 30
+ Emitters {
+  EmitterDef fire {
+   MaxNum 1
+   BirthRate 5555
+   BirthRateVel 0
+   LocalTransform 1
+   LodMin 0
+   LodMax 2
+   Material "{73B9016942BA1998}Particles/_Materials/Fire/Explosion_Base_01.emat"
+   SizeMultiplier 0
+   SizeRND 0.1
+   ScaleX 0.175
+   ScaleY 1
+   CenterY -0.5
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 0
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 5
+   Spring 0
+   AnimOnce 1
+   AnimFPS 35
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 7
+   LifetimeRND 5
+   Color {
+    0.004 0.606 0.606 0.606
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef smoke_01_high_animated_cloned {
+   ShapeType Point
+   ShapeSize 1 1 1
+   ConeAngle 360 0 55
+   MaxNum 15
+   BirthRate 2
+   BirthRateRND 3
+   BirthRateVel 3
+   LodMin 0
+   LodMax 2
+   Material "{68CF090B6BE4ED52}Particles/_Materials/Gas/Steam_Base_Random_01.emat"
+   StretchMultiplier 1
+   StreakFullUV 0
+   SizeMultiplier 1
+   SizeRND 2
+   RotMultiplier 7
+   RotRND 9.9
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 0.2
+   VelocityRND 0.4
+   VelAffect 0.825
+   AirResistance 3
+   AirResistanceRND 1
+   WindInfluence 0.432
+   GravityMultiply 0.05
+   GravityMultiplyRND -0.075
+   Restitution 0
+   AnimOnce 1
+   AnimFPS 20
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 5
+   LifetimeRND 2
+   Alpha {
+    0 0.188 0.003 1 0.548 1 1 0
+   }
+   RotationSpeed {
+    0 0.25 0.075 1 1 0.339
+   }
+   Size {
+    0 0 0.198 0.309 0.533 0.648 0.943 0.879 1 0.715
+   }
+   EmittingTime 5
+   Repeat 0
+   AlphaMast {
+    0 1 0.482 0.903 0.724 0.739 0.832 0.582 0.945 0.303 1 0
+   }
+   BRateMast {
+    0 0.988 0.73 0.873 0.866 0.764 0.955 0.509 1 0.194
+   }
+   VelocityMast {
+    0 1 0.603 0.885 0.827 0.703 1 0
+   }
+  }
+  EmitterDef smoke_01_high_animated_cloned_cloned {
+   ShapeType Point
+   ShapeSize 1 1 1
+   ConeAngle 360 0 55
+   MaxNum 25
+   BirthRate 35
+   BirthRateRND 1.5
+   BirthRateVel 10
+   LodMin 0
+   LodMax 2
+   Material "{68CF090B6BE4ED52}Particles/_Materials/Gas/Steam_Base_Random_01.emat"
+   StretchMultiplier 1
+   StreakFullUV 0
+   RotMultiplier 7
+   RotRND 9.9
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 0.2
+   VelocityRND 0.3
+   VelAffect 0.2
+   AirResistance 1
+   AirResistanceRND 0.312
+   WindInfluence 0.338
+   GravityMultiply 0.05
+   GravityMultiplyRND -0.075
+   Restitution 0
+   AnimOnce 1
+   AnimFPS 20
+   LifetimeByAnim 0
+   Lifetime 2
+   LifetimeRND 1.5
+   Alpha {
+    0 0.782 0.003 1 0.552 1 1 0
+   }
+   RotationSpeed {
+    0 0.25 0.075 1 1 0.339
+   }
+   Size {
+    0 0 0.198 0.309 0.533 0.648 0.929 1 1 1
+   }
+   EmittingTime 0.301
+   Repeat 0
+   AlphaMast {
+    0 1 0.361 1 0.714 0.521 0.833 0.412 0.942 0.2 1 0
+   }
+   BRateMast {
+    0 0.988 0.73 0.873 0.866 0.764 0.955 0.509 1 0.194
+   }
+   VelocityMast {
+    0 1 0.603 0.885 0.827 0.703 1 0
+   }
+  }
+ }
+}

@@ -1,0 +1,65 @@
+MetaFileClass {
+ Name "{AE72C08718BBB103}Assets/Props/Civilian/FireExtinguisher_SPC/Fire Extinguisher.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5B2A8BFC36EA9A54}" {
+     SourceMaterial "FE"
+     AssignedMaterial "{51C156F2D398885F}Assets/Props/Civilian/FireExtinguisher_SPC/data/FE.emat"
+    }
+    MaterialAssignClass "{5B2A8BFC36EA9BBE}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{7157A276D45B9FE7}Assets/Props/Civilian/FireExtinguisher_SPC/data/Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Binding_Low {
+    }
+    MeshParam Body_Low {
+    }
+    MeshParam Cap_Low {
+    }
+    MeshParam Elastic_Low {
+    }
+    MeshParam Handle_bot_Low {
+    }
+    MeshParam Handle_top_Low {
+    }
+    MeshParam Mirror_Low {
+    }
+    MeshParam Nut_Low {
+    }
+    MeshParam Pin_Low {
+    }
+    MeshParam Plug_1 {
+    }
+    MeshParam Plug_2 {
+    }
+    MeshParam Pointer_Low {
+    }
+    MeshParam Pressure_Low {
+    }
+    MeshParam Screw_Low {
+    }
+   }
+   Common TXOCommonClass "{5B2A8BFC36D1A511}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5B2A8BFC36D1B605}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5B2A8BFC36D1B7C5}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5B2A8BFC36D1B715}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5B2A8BFC36D1B0BA}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5B07DB2ADDB8F26F}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/light_WP.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

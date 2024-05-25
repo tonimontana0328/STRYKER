@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{618F2092B49A6797}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Turret.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

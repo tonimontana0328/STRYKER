@@ -1,0 +1,16 @@
+Particle {
+ Color 0.352 0.352 0.352 1
+ AlbedoMap "{9BA1A1AA85EE5903}Particles/_Textures/smoke_explosion_2.edds"
+ NormalMap "{156118516E971672}Particles/_Textures/smoke_explosion_2_N.edds"
+ Emissive 0 0 0 0
+ ReceiveShadow 1
+ ReceiveLights 1
+ AlphaMul 1.2
+ TileU 8
+ TileV 8
+ SphereSizeMultiplier 0.1
+ VertexNormalPower 0.5
+ NormalMapPower 0.75
+ Backlight 0.4
+ Softness 2
+}

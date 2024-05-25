@@ -1,0 +1,40 @@
+Vehicle : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 22200
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1196_Name"
+    m_Image "{FB0085CF2C1E2153}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_Dragoon_Cage.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 3450
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cage {
+     MergePhysics 1
+     Prefab "{4388B6130BADE574}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Cage_Back_01 {
+     PivotID "v_backRamp"
+     MergePhysics 1
+     Prefab "{78AC7C2B48EE9137}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Cage_Back_02 {
+     PivotID "v_backRamp"
+     MergePhysics 1
+     Prefab "{CADD6A45715E7BCA}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

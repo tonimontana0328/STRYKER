@@ -1,0 +1,240 @@
+Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames {
+    "{91E318F189F09E6F}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Animations.acp" "{0AD8A6FE3EEBEF7D}Sounds/Vehicles/Wheeled/Stryker/Vehicles_Stryker_Engine.acp" "{B992B5065A62F9CA}Sounds/Vehicles/_SharedData/Crashes/APC/Vehicles_Crashes_APC.acp" "{F7D2EDE33E61A12A}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Dampers.acp" "{8880F08042E64B12}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Horn.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{721646ED5C5EEFCC}Sounds/Vehicles/Wheeled/Stryker/Vehicles_STRYKER_Rain.acp" "{E58AD1E99CBDA918}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Hatch.acp" "{F1030E91E4B33E24}Sounds/Vehicles/_SharedData/WaterInteractions/Vehicles_WaterInteractions.acp" "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp" "{F41C3D53A2B69D85}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fires.acp"
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_L01 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_1_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_1_idle"
+     }
+    }
+    CargoCompartmentSlot Passenger_L02 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_2_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_2_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_2_idle"
+     }
+     ContextName "Passenger_L02"
+    }
+    CargoCompartmentSlot Passenger_L03 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_3_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_3_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_3_idle"
+     }
+     ContextName "Passenger_L03"
+    }
+    CargoCompartmentSlot Passenger_L04 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_4_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_4_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_4_idle"
+     }
+     ContextName "Passenger_L04"
+    }
+    CargoCompartmentSlot Passenger_R01 : "{1F65AB7E6CFBCBBF}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerR.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_R_1_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R_1_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_R_1_idle"
+     }
+     ContextName "Passenger_R01"
+    }
+    CargoCompartmentSlot Passenger_R02 : "{1F65AB7E6CFBCBBF}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerR.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_R_2_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R_2_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_R_2_idle"
+     }
+     ContextName "Passenger_R02"
+    }
+    CargoCompartmentSlot Passenger_R03 : "{1F65AB7E6CFBCBBF}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerR.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_R_3_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R_3_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_R_3_idle"
+     }
+     ContextName "Passenger_R03"
+    }
+    CargoCompartmentSlot Passenger_R04 : "{1F65AB7E6CFBCBBF}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerR.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_R_4_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R_4_idle"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_R_4_idle"
+     }
+     ContextName "Passenger_R04"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1126_Name"
+    m_Image "{911B947A75595F73}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_APC.edds"
+    m_aAuthoredLabels + {
+     37
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 850
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5EAD79DA34C9209E}" {
+      m_BudgetType AI
+      m_Value 8
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{60DC0D1AD39A1674}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{60DC0D1AAE669F83}" {
+     m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{5DB8993B72033255}" {
+      m_StoragePolicies {
+       SCR_ResourceEncapsulatorStoragePolicyGeneric "{5DB89930672A4D0D}" {
+        m_StorageQueue SCR_ResourceEncapsulatorContainerStorageQueue "{60DC0D1AB83698CC}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo SupplyStorage_01 {
+     PivotID "v_body"
+     Offset -0.7962 1.9894 -1.4906
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_02 {
+     PivotID "v_body"
+     Offset -1.2665 1.3186 -1.2587
+     Angles 86.2583 94.6028 180
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_03 {
+     PivotID "v_body"
+     Offset -1.2518 1.4051 -0.9175
+     Angles 3.6107 -180 -90
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     PivotID "v_body"
+     Offset 1.1918 1.3757 -1.5799
+     Angles 62.2955 0 -90
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_05 {
+     PivotID "v_body"
+     Offset 0.0771 1.9948 -0.7663
+     Angles 0 87.3022 0
+     AutoTransform 0
+     MergePhysics 1
+     Prefab "{8C29E423099B0C5A}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_medium_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     PivotID "v_body"
+     Offset -0.7832 1.9786 -0.942
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_07 {
+     PivotID "v_body"
+     Offset 0.0264 2.0536 -1.5044
+     Angles 11.9326 0 0
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_08 {
+     PivotID "v_body"
+     Offset -0.2028 2.1089 -1.1118
+     Angles 0.8233 0.0199 -0.3984
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_09 {
+     PivotID "v_body"
+     Offset -0.2028 2.0309 -0.7822
+     Angles -6.0107 0 0
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+   }
+  }
+ }
+}

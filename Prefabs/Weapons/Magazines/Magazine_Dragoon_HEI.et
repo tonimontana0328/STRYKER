@@ -1,0 +1,50 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 40
+   IndirectlyUsedAgainst 1
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "30mm HEI-T 78-Rounds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5CA77AA34BFC9225}" {
+     Weight 40
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 10000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5CA77AA34BFC922E}" {
+      CameraDistanceToItem 2
+      ItemRenderRotation 0 30 0
+      PreviewModel "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell30DragHE "{5CA77AA34BFC9232}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "30mm HEI-T 78-Rounds"
+    m_sAmmoCaliber "30x173mm"
+    m_sAmmoType "HEI-T"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 138
+   }
+   ItemModel "{CFABE5292A62A945}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V5.xob"
+   MaxAmmo 78
+   AmmoConfig "{98DA5A8B6B245CA7}Configs/Weapons/Ammo/Ammo_GAU-8.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{2482E01261AB2FB5}Assets/Weapons/Magazines/PM/Magazine_8rnd_PM.xob"
+  }
+  RigidBody "{571B0382401B1385}" {
+   Mass 114
+  }
+ }
+}

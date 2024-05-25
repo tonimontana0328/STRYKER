@@ -1,0 +1,32 @@
+GenericEntity : "{5CD690CF2464ABA9}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_Base.et" {
+ ID "476AE746F954DD20"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#AR-Magazine_M2AP_Name"
+     Description "#AR-Magazine_M2_4AP_1APIT_Description"
+    }
+   }
+   WeightPerAmmo 0.129
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellCROWSSmoke "{476AE746EC5FBEE9}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#AR-Magazine_M2AP_Name"
+    m_sAmmoType "#AR-AmmoType_M2_APAPIT"
+    m_eAmmoTypeFlags 134
+   }
+   ItemModel "{E1D9125A7EB3BD1C}Assets/Weapons/Magazines/M2/Magazine_100rnd_M2.xob"
+   MaxAmmo 16
+   AmmoConfig "{1A4D707C0C0E6F08}Configs/Weapons/Ammo/Ammo_Smoke.conf"
+   AmmoMapping {
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Enabled 1
+   Object "{317726F73A3CA775}Assets/Weapons/Magazines/M9_Beretta/Magazine_15rnd_M9.xob"
+  }
+ }
+}

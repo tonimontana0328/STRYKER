@@ -1,0 +1,70 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup {
+   Name "Vehicle"
+   Animations {
+    "AccelerationSpine"
+    "Aim"
+    "AimIdle"
+    "ClimbOut"
+    "ClimbOutL"
+    "ClimbOutR"
+    "CrawlOut"
+    "CrawlOutL"
+    "CrawlOutR"
+    "Death"
+    "GetIn"
+    "GetInL"
+    "GetInR"
+    "GetOut"
+    "GetOutL"
+    "GetOutR"
+    "HeadLook"
+    "Idle"
+    "JumpOut"
+    "JumpOutL"
+    "JumpOutR"
+    "SpineBreakHard"
+    "SpineBreakSoft"
+    "SwitchIn"
+    "SwitchOut"
+    "UnconsciousDeath"
+    "UnconsciousIdle"
+    "UnconsciousIn"
+    "UnconsciousOut"
+   }
+   Columns {
+    "CoDriver"
+    "Driver"
+    "Gunner"
+    "PassengerL"
+    "PassengerR"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup {
+   Name "VehicleActions"
+   Animations {
+    "Brake"
+    "Clutch"
+    "EngineStartIn"
+    "EngineStartLoop"
+    "EngineStartOut"
+    "EngineStop"
+    "HandBreakOff"
+    "HandBreakOn"
+    "HornIn"
+    "HornLoop"
+    "HornOut"
+    "LightsOff"
+    "LightsOn"
+    "ShiftGear"
+    "SteeringExtreme"
+    "SteeringMain"
+    "Throttle"
+   }
+   Columns {
+    "Default"
+   }
+  }
+ }
+}

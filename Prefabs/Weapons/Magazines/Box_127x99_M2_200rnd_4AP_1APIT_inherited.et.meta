@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7368DBD1BB3633B8}Prefabs/Weapons/Magazines/Box_127x99_M2_200rnd_4AP_1APIT_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

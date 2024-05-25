@@ -1,0 +1,8 @@
+GenericEntity : "{78AC7C2B48EE9137}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{71EFC8E99C4B4855}Assets/Vehicles/Wheeled/SPC_Stryker/Cage/Cage_57.xob"
+  }
+ }
+}

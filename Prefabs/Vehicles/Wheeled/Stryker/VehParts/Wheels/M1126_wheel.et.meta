@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3743DAA2C1072117}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Wheels/M1126_wheel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

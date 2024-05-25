@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C58E09F4D143515F}Assets/Vehicles/Wheeled/SPC_Stryker/data/Stryker_Nameplate.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

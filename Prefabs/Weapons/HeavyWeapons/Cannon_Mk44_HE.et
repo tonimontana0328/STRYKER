@@ -1,0 +1,14 @@
+GenericEntity : "{CF10BAD4FF2B0ED2}Prefabs/Weapons/HeavyWeapons/Cannon_Mk44.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineWell MagazineWell30DragHE "{5CA77AA2B201360A}" {
+     }
+     MagazineTemplate "{07865CD345822E72}Prefabs/Weapons/Magazines/Magazine_Dragoon_HEI.et"
+    }
+   }
+  }
+ }
+}

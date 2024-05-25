@@ -1,0 +1,18 @@
+HDREffect {
+ TargetBrightness 0.18
+ SpeedDarkToBright 20
+ SpeedBrightToDark 20
+ ToneMapping Linear
+ HDR 0
+ BloomIntensity 0
+ Contrast 2
+ Offset 0.08
+ Saturation 0
+ DesaturationWeights 0.299 0.587 0.114 0
+ VignetteMode Scope
+ Vignette 0.676
+ VignetteColor 0 0 0 0
+ ReticleMap "{0F5FA11DD3250A13}UI/Textures/Sights/SightImproved/Reticle_PSO-1.edds"
+ ReticleScale 2
+ LensDistort -0.588
+}

@@ -1,0 +1,48 @@
+GenericEntity : "{6AF5FA1A839A4980}Prefabs/Weapons/MachineGuns/M60/MG_M60_Mounted.et" {
+ ID "476AE74DE20E1061"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{5CE857EBF750E913}" {
+     SourceMaterial "M60_Body1"
+     AssignedMaterial "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+    }
+    MaterialAssignClass "{5CE857EBF750E960}" {
+     SourceMaterial "M60_Body2"
+     AssignedMaterial "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+    }
+    MaterialAssignClass "{5CE857EBF750E97C}" {
+     SourceMaterial "M60_Body3"
+     AssignedMaterial "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+    }
+    MaterialAssignClass "{5CE857EBF750E97A}" {
+     SourceMaterial "M60_Body4"
+     AssignedMaterial "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+    }
+    MaterialAssignClass "{5CE857EBF750E978}" {
+     SourceMaterial "M60_Body5"
+     AssignedMaterial "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+    }
+    MaterialAssignClass "{5CE857EBF750E974}" {
+     SourceMaterial "M60_Body6"
+     AssignedMaterial "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    m_bDraggable 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0.3121 0 0
+     }
+    }
+   }
+  }
+ }
+ coords 109.343 1.001 195.766
+}

@@ -1,0 +1,361 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 2
+   name "DriverHatch"
+   tl 215.911 -338.405
+   ctl 0 -21
+   children {
+    3 23
+   }
+  }
+  IOPInputValueClass {
+   id 4
+   name "Value 40"
+   tl 456.911 -440.211
+   children {
+    7
+   }
+   value 15
+  }
+  IOPInputValueClass {
+   id 14
+   name "Value 14"
+   tl 476.6 267.528
+   children {
+    12
+   }
+   value 100
+  }
+  IOPItemInputClass {
+   id 15
+   name "RearDoor"
+   tl 265.823 349.416
+   ctl 0 -21
+   children {
+    16
+   }
+  }
+  IOPItemInputClass {
+   id 17
+   name "CommanderHatch"
+   tl 264.989 172.333
+   ctl 0 -21
+   children {
+    18
+   }
+  }
+  IOPInputValueClass {
+   id 19
+   name "Value 19"
+   tl 475.766 90.445
+   children {
+    20
+   }
+   value 140
+  }
+  IOPInputValueClass {
+   id 25
+   name "Value 25"
+   tl 455.713 -243.648
+   children {
+    24
+   }
+   value 0.23
+  }
+ }
+ Ops {
+  IOPItemOpSmootherClass {
+   id 3
+   name "Smoother 19"
+   tl 459.328 -348.155
+   ctl 0 0.05
+   children {
+    7
+   }
+   inputs {
+    ConnectionClass connection {
+     id 2
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+   ResetTimerOnNewInput 1
+  }
+  IOPItemOpMulClass {
+   id 7
+   name "Mul"
+   tl 666.106 -345.072
+   children {
+    8
+   }
+   inputs {
+    ConnectionClass connection {
+     id 3
+     port 0
+    }
+    ConnectionClass connection {
+     id 4
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 12
+   name "Mul"
+   tl 704.378 348.194
+   children {
+    13
+   }
+   inputs {
+    ConnectionClass connection {
+     id 16
+     port 0
+    }
+    ConnectionClass connection {
+     id 14
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 16
+   name "Smoother 19"
+   tl 460.489 353.416
+   ctl 0 0.05
+   children {
+    12
+   }
+   inputs {
+    ConnectionClass connection {
+     id 15
+     port 0
+    }
+   }
+   "Fade In Time" 4000
+   "Fade Out Time" 4000
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+   ResetTimerOnNewInput 1
+  }
+  IOPItemOpSmootherClass {
+   id 18
+   name "Smoother 19"
+   tl 459.655 176.333
+   ctl 0 0.05
+   children {
+    20
+   }
+   inputs {
+    ConnectionClass connection {
+     id 17
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+   ResetTimerOnNewInput 1
+  }
+  IOPItemOpMulClass {
+   id 20
+   name "Mul"
+   tl 703.544 171.111
+   children {
+    21
+   }
+   inputs {
+    ConnectionClass connection {
+     id 18
+     port 0
+    }
+    ConnectionClass connection {
+     id 19
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 23
+   name "Smoother 19"
+   tl 456.88 -152.843
+   ctl 0 0.05
+   children {
+    24
+   }
+   inputs {
+    ConnectionClass connection {
+     id 2
+     port 0
+    }
+   }
+   "Fade In Time" 750
+   "Fade Out Time" 750
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
+   ResetTimerOnNewInput 1
+  }
+  IOPItemOpMulClass {
+   id 24
+   name "Mul"
+   tl 663.658 -149.759
+   children {
+    26
+   }
+   inputs {
+    ConnectionClass connection {
+     id 23
+     port 0
+    }
+    ConnectionClass connection {
+     id 25
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 8
+   name "Output DriverHatch"
+   tl 897.967 -346.544
+   ctl 32870688 0
+   input 7
+  }
+  IOPItemOutputClass {
+   id 13
+   name "Output RearDoor"
+   tl 917.712 350.194
+   ctl 32870688 0
+   input 12
+  }
+  IOPItemOutputClass {
+   id 21
+   name "Output CommanderHatch"
+   tl 916.878 173.111
+   ctl 32870688 0
+   input 20
+  }
+  IOPItemOutputClass {
+   id 26
+   name "Output DriverSeat"
+   tl 908.75 -156.25
+   input 24
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   773 645 517 519 651 262 389 391 261 267 134 133 5 775 907 390 7 139 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     2 3 393219
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 65539
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 131075
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 196611
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 262147
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 327683
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 458755
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 65539 2 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 2 4 1 0 65536 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 65538 4 196609 0 131072 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131075 2 196608 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 327683 2 262144 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131074 4 262145 0 327680 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 458755 2 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 196610 4 393217 0 393216 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 19
+  version 2
+  ops_reeval_list {
+   0 3 4 6
+  }
+ }
+}

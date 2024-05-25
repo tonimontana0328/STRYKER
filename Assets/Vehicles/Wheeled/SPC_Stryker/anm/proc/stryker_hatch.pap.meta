@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D4F61DA523610B70}Assets/Vehicles/Wheeled/SPC_Stryker/anm/proc/stryker_hatch.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

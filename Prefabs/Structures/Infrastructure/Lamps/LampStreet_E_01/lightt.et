@@ -1,0 +1,21 @@
+LightEntity : "{C274EE54AB618B04}Prefabs/Structures/Core/Lamp_LightEntity_base.et" {
+ ID "553869DAB190363F"
+ components {
+  StreetLampComponent "{55A0954A909C9109}" {
+   Enabled 0
+  }
+ }
+ coords 0 0.22 0
+ angleX -90
+ Color 1 0.196 0.009 1
+ Temperature 2500
+ LV 3.5
+ Radius 100
+ NearPlane 1
+ SpotAngle 130
+ Dynamic 1
+ VolLightOffset 0.006
+ VolLightOffsetUp 0.001
+ VolLightIntensity 0.025
+ LensFlareType Disabled
+}

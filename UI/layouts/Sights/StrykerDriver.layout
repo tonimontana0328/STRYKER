@@ -1,0 +1,35 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  RTTextureWidgetClass "{59B839636B9D2A03}" {
+   Name "RTTexture0"
+   Slot FrameWidgetSlot "{59B839636B9D2A26}" {
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 500
+    OffsetRight -500
+    SizeY 500
+    OffsetBottom -500
+   }
+   {
+    RenderTargetWidgetClass "{59B8396313339904}" {
+     Name "RenderTarget0"
+     Slot FrameWidgetSlot "{59B8396313339927}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX -400
+      OffsetRight 0
+      SizeY -470
+      OffsetBottom 0
+     }
+     "Z Order" 100
+    }
+   }
+  }
+ }
+}

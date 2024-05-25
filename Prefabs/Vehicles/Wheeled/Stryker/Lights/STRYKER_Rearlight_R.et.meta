@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A281B676813C9C31}Prefabs/Vehicles/Wheeled/Stryker/Lights/STRYKER_Rearlight_R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

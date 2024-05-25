@@ -1,0 +1,98 @@
+Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{59EF653E35A60F85}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{59EF653E35A60F9E}" {
+     EffectPrefab "{7477DC60BBE4C80C}Prefabs/Weapons/Warhead_SmokeL.et"
+     ParticleEffect "{1E185CEF5FCDB6B3}Particles/smoke2.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    ExplosionEffect "{5B2D662CAA75E0B2}" {
+     EffectPrefab "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et"
+     ParticleEffect "{0504555DEF58E2C3}Particles/smoke_WP_AdditionalSparks.ptc"
+     ExitEffectPrefab "{4E168888868FE6C7}Prefabs/Weapons/Core/ExitEffect.et"
+    }
+   }
+   SafetyDistance 0
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "Smoke"
+     Description "Smoke"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{59EF653E35A60FA9}" {
+     Weight 2
+     SizeSetupStrategy Volume
+     ItemVolume 1200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{59EF653E35A60FAE}" {
+      CameraPreset Top
+      CameraDistanceToItem 2.3
+      ItemRenderRotation 0 270 0
+      FOV 10
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   MagazineWell MagazineWellCROWSSmoke "{59EF653E35A60FA4}" {
+   }
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    Name "Smoke"
+    Description "Smoke"
+    m_sAmmoCaliber "80"
+    m_sAmmoType "Smoke"
+    m_eAmmoTypeFlags SMOKE
+   }
+   ItemModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+   MaxAmmo 3
+   AmmoConfig "{1A4D707C0C0E6F08}Configs/Weapons/Ammo/Ammo_Smoke.conf"
+   AmmoMapping {
+    0 0 0
+   }
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{3D2DFC533F142E11}Assets/Weapons/Ammo/Bullets/9x18/Bullet_9x18.xob"
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 60
+   InitSpeedVariation 6
+   Mass 15
+   TimeToLive 0.5
+   DeleteWhenStop 0
+   TriggerWhenStop 0
+   ProjectileEffects {
+    BaseDamageEffect "{56829D01651CE9A7}" {
+     DamageValue 5
+    }
+    AIHitEffect "{59EF653E35A60FBE}" {
+    }
+   }
+   ThrustInitTime 0.1
+   ThrustTime 1
+   ThrustForce 50
+   ForwardAirFriction 0.5
+   SideAirFriction 0.08
+   AlignTorque 0.04
+   DistanceEnableGravitation 0.1
+  }
+  RigidBody "{59EF653E35A60FB3}" {
+   LayerPreset "Projectile"
+   Mass 2.6
+   ModelGeometry 1
+  }
+  RocketTraceEffectComponent "{59EF653E35A60FB6}" {
+   ParticleEffect "{EFF671540FDF3D19}Particles/smoke.ptc"
+  }
+  ActionsManagerComponent "{50F6614BA1D6E54A}" {
+   additionalActions {
+   }
+  }
+ }
+ ProjectileModel "{3D2DFC533F142E11}Assets/Weapons/Ammo/Bullets/9x18/Bullet_9x18.xob"
+ CartridgeModel "{3D2DFC533F142E11}Assets/Weapons/Ammo/Bullets/9x18/Bullet_9x18.xob"
+}

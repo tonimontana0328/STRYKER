@@ -1,0 +1,89 @@
+Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{F664A7C1718BFE5E}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_MGS.xob"
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 18200
+   CenterOfMass 0 1 -0.3
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+       "hatch_driver" "backRamp"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1128_Name"
+    Icon "{95F49CBE9FF7A0CB}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Apc.edds"
+    m_Image "{97F3D1DA6DD55112}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_MGS_Base.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels + {
+     21
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+     SCR_EntityBudgetValue "{60DC0D1B4DFD4443}" {
+      m_BudgetType RANK_LIEUTENANT
+     }
+    }
+    m_aOccupantFillCompartmentTypes {
+     0 1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5C6692DC269DE461}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+   }
+  }
+  SCR_MotorExhaustEffectGeneralComponent "{5EAD79DA34C9209C}" {
+   MaxRPM 3000
+  }
+  SCR_ResourceComponent "{60DC0D1AD39A1674}" {
+   m_aContainers {
+    SCR_ResourceContainerVirtual "{60DC0D1AD59A7D96}" {
+     m_fResourceValueMax 50
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60900DDA3F0DE734}" {
+     SlotTemplate InventoryStorageSlot HE {
+      Prefab "{DB65BE3D78FA67F9}Prefabs/Weapons/Magazines/Magazine_MGS_HEATFS.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo IFV_Top {
+     MergePhysics 0
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Turret {
+     MergePhysics 1
+     Prefab "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_MGS_Turret.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

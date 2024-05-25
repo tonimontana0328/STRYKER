@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{71EFC8E99C4B4855}Assets/Vehicles/Wheeled/SPC_Stryker/Cage/Cage_57.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5B2679F57DC2964B}" {
+     SourceMaterial "Cage"
+     AssignedMaterial "{D86CA2A520DE4BD4}Assets/Vehicles/Wheeled/SPC_Stryker/Cage/data/Cage.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cage_57 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Cage_57 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Cage_57 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{469B8DA92D8109EC}Common/Materials/Game/Metal/metal_10mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5B2679F57DC65D1F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5B2679F57DC65E9C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5B2679F57DC65EF5}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5B2679F57DC65EDD}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5B2679F57DC65E24}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

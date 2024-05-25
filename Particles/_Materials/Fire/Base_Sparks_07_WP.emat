@@ -1,0 +1,11 @@
+Particle {
+ AlbedoMap "{A163F306126085A3}Particles/_Textures/Sparks_07_BCA.edds" 
+ NormalMap "{5A67EEB7E9758F16}Particles/_Textures/1x1_blank_N.edds" 
+ Ambient 1 1 1 1
+ Emissive 1 1 1 0
+ EmissiveLV 8
+ EmissiveAbsoluteLV 0
+ AlphaToEmissiveLV FromAlphaGraphs
+ BlendMode Additive_AlphaModulate
+ SphereSizeMultiplier 0
+}

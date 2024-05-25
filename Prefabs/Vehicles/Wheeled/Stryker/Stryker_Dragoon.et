@@ -1,0 +1,91 @@
+Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 19200
+   CenterOfMass 0 1 -0.3
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1196_Name"
+    m_Image "{FA26FB824B30CF67}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_Dragoon.edds"
+    m_aAuthoredLabels {
+     3 37 200 20 1001 21
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 3350
+     }
+     SCR_EntityBudgetValue "{60DC0D1B4DFD4443}" {
+      m_BudgetType RANK_CAPTAIN
+     }
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5EAD79DA34C9209F}" {
+      m_BudgetType AI
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{60DC0D1AD39A1674}" {
+   m_aContainers {
+    SCR_ResourceContainer "{60DC0D1AD59A7D96}" {
+     m_fResourceValueMax 160
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60565BEFD2C8CADA}" {
+     SlotTemplate LoadoutSlotInfo Ammo {
+      Prefab "{07865CD345822E72}Prefabs/Weapons/Magazines/Magazine_Dragoon_HEI.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo IFV_Top {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_01 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_02 {
+    }
+    EntitySlotInfo SupplyStorage_03 {
+    }
+    EntitySlotInfo SupplyStorage_04 {
+    }
+    EntitySlotInfo SupplyStorage_05 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_07 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_08 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_09 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_10 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Dragoon_Turret {
+     MergePhysics 1
+     Prefab "{DAA1E2C22905F361}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_Dragoon_Turret.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

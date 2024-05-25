@@ -1,0 +1,143 @@
+GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{E60D78FE87A1F450}Sounds/Weapons/HeavyWeapons/MGS/Weapons_HeavyWeapons_MGS_Shot.acp" "{6616B1A0537FC180}Sounds/Vehicles/Wheeled/M151A2/Vehicles_M151A2_Turret.acp" "{EC7E8631CBC17F15}Sounds/Weapons/HeavyWeapons/M2/Weapons_HeavyWeapons_M2_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{8F3E96B21A6A38BA}Assets/Weapons/HeavyWeapons/MGS/STRYKER_MGS_Cannon.xob"
+  }
+  RigidBody "{5C66AD57DA291E2E}" {
+   Mass 1000
+   ModelGeometry 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName UIInfo "{5C6C77138585FEB0}" {
+     Name "105mm Cannon"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C6C7713918D2FA1}" {
+     Weight 1000
+    }
+    m_bDraggable 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset -0.3435 0.1647 0.2259
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C6692DC96456538}" {
+      m_fBaseZoom 4
+      m_fZoomMax 12
+      m_fStepZoomSize 4
+     }
+    }
+    MuzzleComponent "{5C6692DD0D3883EE}" {
+     components {
+      CaseEjectingEffectComponent "{5C66E7D84D562B6F}" {
+       ParticleEffect "{D071B1C92D7AEB7C}Particles/Weapon/Smoke_MGS.ptc"
+       EffectPosition EntitySlotInfo Smoke {
+        PivotID "Muzzle_01"
+       }
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{60565E6BD7700AE6}" {
+       ParticleEffect "{EF06660D8B900D54}Particles/Weapons/Smoke_Cannon_Larger_Emmiter.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "Muzzle_01"
+       }
+      }
+      SCR_MuzzleEffectComponent "{5C66E7DAB8F14A94}" {
+       ParticleEffect "{5B5AAD527171AD1B}Particles/Weapon/Muzzle_Base_Large_01.ptc"
+       EffectPosition EntitySlotInfo Flash {
+        PivotID "Muzzle_01"
+        Offset 0 0 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5C6692DD0B57665E}" {
+       PivotID "Muzzle_01"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5C6692DD15F14E94}" {
+       PivotID "Chamber_01"
+      }
+     }
+     FireModes {
+      BaseFireMode "{5C6692DCEB15C575}" {
+       MaxBurst 0
+       MaxSalvo 0
+       RoundsPerMinute 0
+       UIName "Safe"
+      }
+      BaseFireMode "{5C6692DCEB5E96E0}" {
+       MaxBurst -1
+       RoundsPerMinute 8
+       UIName "Single"
+      }
+     }
+     MagazineWell MagazineWell105MGS "{5C6692DD53AE84CA}" {
+     }
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{5C6692DD5BE28CB3}" {
+      }
+      RecoilWeaponAimModifier "{5C6692DCA6492949}" {
+       LinearData RecoilData "{5C6A966B1C785EED}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 8
+       }
+      }
+      OnHitAimModifier "{5C6692DCA0380ECC}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{5C6692DCA2F7DCEC}" {
+      m_bShowCaliber 1
+      m_sCaliber "105mm"
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{5E3E8116F851726B}" {
+      }
+     }
+     NeedsSetup 1
+     InitialSetup 1
+     OutOfADSWhileReloading 0
+     MagazinePosition InventoryStorageSlot MAg {
+     }
+     MagazineTemplate "{7F81D339B5730DC8}Prefabs/Weapons/Magazines/Magazine_MGS_APFSDS.et"
+    }
+    WeaponAnimationComponent "{60565E6BEF44DB27}" {
+     AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
+     AnimInstance "{E2DF83DEEE9355A1}Assets/Weapons/HeavyWeapons/workspaces/Cannon_weapon.asi"
+     AlwaysActive 1
+    }
+   }
+   IkObstructionEnabled 1
+   obstructionTestBreakingThreshold 0.7
+   ObstructionAlphaThreshold 1
+   SoundInt 1030000
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "105mm Cannon"
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "hmg"
+   CanBeOnSling 1
+  }
+ }
+}

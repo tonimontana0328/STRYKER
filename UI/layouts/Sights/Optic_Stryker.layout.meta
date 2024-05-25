@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D57707DC3F64E6AB}UI/layouts/Sights/Optic_Stryker.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

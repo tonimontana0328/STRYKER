@@ -1,0 +1,51 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 40
+   UsedAgainst 14
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "105mm HEATFS 5-Rounds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C66AD5655B238B3}" {
+     Weight 40
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 10000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5C6C77119FAD2809}" {
+      CameraDistanceToItem 2
+      ItemRenderRotation 0 30 0
+      PreviewModel "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell105MGS "{5C66AD578A9F03E8}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "HEATFS"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+   MaxAmmo 5
+   AmmoConfig "{861A4E0754900F1E}Configs/Weapons/Ammo/Ammo_MGS.conf"
+   AmmoMapping {
+    0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{2482E01261AB2FB5}Assets/Weapons/Magazines/PM/Magazine_8rnd_PM.xob"
+  }
+  RigidBody "{571B0382401B1385}" {
+   Mass 114
+  }
+ }
+}

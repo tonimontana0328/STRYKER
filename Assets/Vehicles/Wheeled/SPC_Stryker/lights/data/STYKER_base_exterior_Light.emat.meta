@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DEAC9688791B2191}Assets/Vehicles/Wheeled/SPC_Stryker/lights/data/STYKER_base_exterior_Light.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

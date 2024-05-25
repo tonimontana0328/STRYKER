@@ -1,0 +1,84 @@
+GameProject {
+ ID "STRYKER"
+ GUID "5B02128D896F7DE8"
+ TITLE "STRYKER"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{60DE706A5B460292}" {
+      StringTableSource "{928AC130CC5E9E8F}Language/Stryker_localization.st"
+      Languages {
+       LanguageDefinition "{60DE706A5A38400D}" {
+        Code "cs_cz"
+        StringTableRuntime "{0C5BB23964807416}Language/Stryker_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{60DE706A5A384030}" {
+        Code "de_de"
+        StringTableRuntime "{D925A80A77236536}Language/Stryker_localization.de_de.conf"
+       }
+       LanguageDefinition "{60DE706A5A384046}" {
+        Code "en_us"
+        StringTableRuntime "{87D522411DD06037}Language/Stryker_localization.en_us.conf"
+       }
+       LanguageDefinition "{60DE706A5A384056}" {
+        Code "es_es"
+        StringTableRuntime "{42996FC8F3D20B28}Language/Stryker_localization.es_es.conf"
+       }
+       LanguageDefinition "{60DE706A5A38405B}" {
+        Code "fr_fr"
+        StringTableRuntime "{F9319AFF1551E82A}Language/Stryker_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{60DE706A5A384069}" {
+        Code "it_it"
+        StringTableRuntime "{792D15CBB8736BD3}Language/Stryker_localization.it_it.conf"
+       }
+       LanguageDefinition "{60DE706A5A38407D}" {
+        Code "ja_jp"
+        StringTableRuntime "{6936A85986025B78}Language/Stryker_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{60DE706A5A38408D}" {
+        Code "ko_kr"
+        StringTableRuntime "{C98880F5152F5847}Language/Stryker_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{60DE706A5A384090}" {
+        Code "pl_pl"
+        StringTableRuntime "{95F9260FABC0C43B}Language/Stryker_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{60DE706A5A38409B}" {
+        Code "pt_br"
+        StringTableRuntime "{408EBCC3903E0E81}Language/Stryker_localization.pt_br.conf"
+       }
+       LanguageDefinition "{60DE706A5A3840B5}" {
+        Code "ru_ru"
+        StringTableRuntime "{15CFA86B0D476BF7}Language/Stryker_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{60DE706A5A384164}" {
+        Code "uk_ua"
+        StringTableRuntime "{9F97FD9D6169D5A2}Language/Stryker_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{60DE706A5A384175}" {
+        Code "zh_cn"
+        StringTableRuntime "{452793A058C905BF}Language/Stryker_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 : PC {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

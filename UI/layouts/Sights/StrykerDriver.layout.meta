@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A1F3B621B15F3CB1}UI/layouts/Sights/StrykerDriver.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

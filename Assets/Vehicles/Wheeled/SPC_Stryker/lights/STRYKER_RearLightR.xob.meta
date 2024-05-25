@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{597DE9BD07EE0D25}Assets/Vehicles/Wheeled/SPC_Stryker/lights/STRYKER_RearLightR.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5B0E4D09B253C5B0}" {
+     SourceMaterial "STYKER_base_exterior_Light"
+     AssignedMaterial "{F532ACC652F43128}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Lights_EM.emat"
+    }
+   }
+   MeshParams {
+    MeshParam RearLightR {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_RearLightR {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{94B76D276C6A1DE3}Common/Materials/Game/Glass/glass_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5B0E4D09B250D2B6}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5B0E4D09B250D221}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5B0E4D09B250D21E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5B0E4D09B250D261}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5B0E4D09B250D24C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

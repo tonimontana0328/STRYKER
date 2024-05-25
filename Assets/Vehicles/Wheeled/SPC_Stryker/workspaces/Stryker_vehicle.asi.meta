@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BB70AB8D809E8072}Assets/Vehicles/Wheeled/SPC_Stryker/workspaces/Stryker_vehicle.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

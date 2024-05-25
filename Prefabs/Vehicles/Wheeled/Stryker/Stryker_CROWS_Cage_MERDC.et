@@ -1,0 +1,35 @@
+Vehicle : "{5F17F054025E8B30}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_Cage.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5CB0A69B857816AB}" {
+     SourceMaterial "STYKER_base_exterior_Body"
+     AssignedMaterial "{86D026CD28DAE14E}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_base_exterior_MERDC.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1126_M2_Name"
+    m_Image "{B7996C0E92610E49}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_CROWS_Cage_MERDC.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo IFV_Top {
+     Prefab "{EC64C822AF1A55D8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/IFV_Top_MERDC.et"
+    }
+    EntitySlotInfo Cage {
+     Prefab "{E75436A7FC5EAB10}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull_MERDC.et"
+    }
+    EntitySlotInfo CageBackDoor {
+     Prefab "{CDC9B058FCD74FB7}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_MERDC.et"
+    }
+    EntitySlotInfo CageBackDoor_02 {
+     Prefab "{FDD5DCB5087A821F}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02_MERDC.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A2EB2EAB0AC6CDA4}Prefabs/Vehicles/Wheeled/Stryker/Lights/STRYKER_TurnSignal_R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

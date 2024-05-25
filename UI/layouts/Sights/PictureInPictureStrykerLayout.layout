@@ -1,0 +1,38 @@
+FrameWidgetClass : "{EF091399D840192D}UI/layouts/Sights/PictureInPictureSightsLayout.layout" {
+ {
+  RTTextureWidgetClass "{00000000F726CE0B}" {
+   Prefab "{00000000F726CE0B}"
+   {
+    FrameWidgetClass "{5B2C4BEACB86F7C1}" : "{D57707DC3F64E6AB}UI/layouts/Sights/Optic_Stryker.layout" {
+     Name "0"
+     Slot FrameWidgetSlot "{5B2C4BEACB86F7D1}" {
+      Anchor 0 0 0 0
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 1920
+      OffsetRight -1920
+      SizeY 1920
+      OffsetBottom -1920
+     }
+    }
+    RenderTargetWidgetClass "{00000000D1E55A86}" {
+     Prefab "{00000000D1E55A86}"
+     Slot FrameWidgetSlot "{A222E83F772CEDA4}" {
+      Anchor 0 0 0 0
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 1080
+      OffsetRight -1080
+      SizeY 1080
+      OffsetBottom -1080
+     }
+     camera 10
+    }
+   }
+  }
+ }
+}

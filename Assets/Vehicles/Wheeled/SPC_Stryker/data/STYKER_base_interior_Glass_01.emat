@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0 0 0 1
+ SpecularIBL 0.08 0.08 0.08 1
+ ApplyAlbedoToEmissive 1
+ AlphaMul 0.177
+ RoughnessScale 0
+ MetalnessScale 0
+}

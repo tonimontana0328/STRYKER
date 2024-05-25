@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.509 0.509 0.509 1
+ SpecularIBL 0.171 0.171 0.171 1
+ BCRMap "{49112D882C9D5143}Assets/Props/Civilian/FireExtinguisher_SPC/Data/Textures/FE_BCR.edds"
+ NMOMap "{71C9961AF5EA03DD}Assets/Props/Civilian/FireExtinguisher_SPC/Data/Textures/FE_NMO.edds"
+}

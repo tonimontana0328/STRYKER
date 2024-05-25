@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D5723E8BAD2F30D6}Sounds/Weapons/HeavyWeapons/M2/Weapons_HeavyWeapons_MK44_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

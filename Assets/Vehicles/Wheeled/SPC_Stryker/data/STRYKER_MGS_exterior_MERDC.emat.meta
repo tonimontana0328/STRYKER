@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D03B18657951D5C7}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_MGS_exterior_MERDC.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

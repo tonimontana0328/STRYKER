@@ -1,0 +1,36 @@
+Projectile {
+ ID "5B28A61E8FF32A86"
+ components {
+  SignalsManagerComponent "{5B28A61E8FF32A9C}" {
+  }
+  BaseProjectileComponent "{5B28AE83F779B477}" {
+  }
+  MeshObject "{5B28A61E8FF32AE9}" {
+  }
+  Hierarchy "{5B28A61E8FF32AE8}" {
+  }
+  RocketTraceEffectComponent "{5B28A61D87954528}" {
+   ParticleEffect "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+  }
+  ShellMoveComponent "{5B28AE83CF49997C}" {
+   Mass 0.7
+   TimeToLive 1
+   LayerPreset "Projectile"
+   ProjectileEffects {
+    SubmunitionDamageEffect "{5B28AE83211DEB0C}" {
+     TriggerOnce 1
+     Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     Count 50
+     Dispersion 50
+    }
+   }
+  }
+  RplComponent "{5B28A61E8FF2AE9D}" {
+  }
+ }
+ SpawnAsCartridge 1
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{B7D40C3C1366B89D}Assets/Weapons/Grenades/ANM8HC/Smoke_ANM8HC.xob"
+ CartridgeModel "{B7D40C3C1366B89D}Assets/Weapons/Grenades/ANM8HC/Smoke_ANM8HC.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

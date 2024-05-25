@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{84C4DA204A67F478}Assets/Vehicles/Wheeled/SPC_Stryker/VehParts/Wheels/Data/STYKER_base_Wheels.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

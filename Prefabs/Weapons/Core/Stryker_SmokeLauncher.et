@@ -1,0 +1,214 @@
+GenericEntity {
+ ID "5B2880892076DB0E"
+ components {
+  SignalsManagerComponent "{5B2880892076DB09}" {
+  }
+  WeaponSoundComponent "{5B2880892076DB05}" {
+   Filenames {
+    "{1A619AD876DD71BE}Sounds/Weapons/Attachments/Underbarrel/M203/Weapons_Attch_Underbarrel_M203_Shot.acp"
+   }
+  }
+  MeshObject "{5B2880892076DB03}" {
+   Object "{3FC883C6EC6A385F}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_Turret_Smoke.xob"
+  }
+  Hierarchy "{5B2880892076DB02}" {
+  }
+  RigidBody "{5B288B52E26F4755}" {
+  }
+  SCR_WeaponAttachmentsStorageComponent "{5B2880892076DB1B}" {
+   Attributes SCR_ItemAttributeCollection "{5B2880892076DB18}" {
+    CustomAttributes {
+     AimingModifierAttributes "{5B2880892076DB16}" {
+      ErectLimitsHorizontal -90 90
+      ErectLimitsVertical -90 90
+      CrouchLimitsHorizontal -90 90
+      CrouchLimitsVertical -90 90
+      ProneLimitsHorizontal -90 90
+      ProneLimitsVertical -90 90
+     }
+     ItemMovementSwayAttributes "{5B2880892076DB15}" {
+     }
+     SCR_RecoilCameraShakeParams "{5B2880892076DB14}" {
+      m_fBlendOutTime 0.089
+      m_fMaxVelocity 15
+      m_vTranslationMin 0.004 0.004 0
+      m_vTranslationMax 0.005 0.005 0
+      m_fFOVModifier 0.985
+      m_vRotationImpulseMin 0.005 0.005 7
+      m_vRotationImpulseMax 0.012 0.012 8
+      m_fMinImpulseThreshold 0.01
+      m_fImpulseCrouchMagnitudeModifier 0.7
+      m_fImpulseProneMagnitudeModifier 1
+      m_fCrouchMagnitudeModifier 0.5
+      m_fProneMagnitudeModifier 0.33
+     }
+    }
+    m_SlotType SLOT_WEAPONS_STORAGE
+   }
+   StoragePurpose 32
+  }
+  WeaponComponent "{5B288B52F374BC7D}" {
+   components {
+    SightsComponent "{5B288B5251EEA132}" {
+     SightsPosition PointInfo "{5B288B525CCB33EE}" {
+     }
+    }
+    MuzzleComponent "{5B288E34E6F2CEDE}" {
+     components {
+      SCR_MuzzleEffectComponent "{5B288E36AA5D86E3}" {
+       ParticleEffect "{8EAE237E5528D237}Particles/Weapon/Muzzle_M21.ptc"
+       EffectPosition EntitySlotInfo effect {
+       }
+       ResetOnFire 0
+      }
+     }
+     MuzzleType BaseMuzzle
+     MuzzleEndPositions {
+      PointInfo "{5B288E34EF5980DF}" {
+       PivotID "Barrel_Muzzle_01"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5B288E34E8AC9F96}" {
+       PivotID "Barrel_Chamber_01"
+      }
+     }
+     ChamberedAmmo 1
+     FireModes {
+      BaseFireMode "{5B288E35AD000A97}" {
+       MaxBurst 1
+       MaxSalvo 8
+       RoundsPerMinute 700
+       UIName "Burst"
+      }
+     }
+     MagazineWell MagazineWellM2HB "{5B288E3505E61004}" {
+     }
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{5B288E35C9F7EC55}" {
+       LinearData RecoilData "{5B288E3524FE58E5}" {
+       }
+       AngularData RecoilData "{5B288E3524C47E8C}" {
+       }
+       TurnOffsetData RecoilData "{5B288E35249E0731}" {
+       }
+      }
+      OnHitAimModifier "{5B288E35CB6A48EA}" {
+      }
+      SwayWeaponAimModifier "{5B288E35D47B1259}" {
+      }
+      RecoilWeaponAimModifier "{5B288E35C1D6629F}" {
+      }
+      OnHitAimModifier "{5B288E35CC83278E}" {
+      }
+      SwayWeaponAimModifier "{5B288E35CF303FD3}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{5B288E34073D36F6}" {
+     }
+     MagazinePosition InventoryStorageSlot MAgazine {
+     }
+     MagazineTemplate "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{5B288B52C8D0FA00}" {
+   }
+   WeaponType MachineGun
+   UIInfo WeaponUIInfo "{5B288B5237D3699F}" {
+    Name "Smoke Launcher"
+    m_bShowWeaponName 1
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5B288B52336BE100}" {
+    }
+   }
+   WeaponSlotType "hmg"
+   CanBeOnSling 1
+  }
+  ActionsManagerComponent "{5B2880892076DB67}" {
+   ActionContexts {
+    UserActionContext "{5B2880892076DB66}" {
+     ContextName "default"
+     Position PointInfo "{5B2880892076DB65}" {
+     }
+    }
+    UserActionContext "{5B2880892076DB64}" {
+     ContextName "bipod"
+     Position PointInfo "{5B2880892077602A}" {
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5B2880892077602D}" {
+     ContextName "magazine"
+     Radius 0.1
+    }
+    UserActionContext "{5B2880892077602C}" {
+     ContextName "firemode"
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAction "{5B2880892077602F}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{5B2880892077602E}" {
+      Name "#AR-Inventory_Equip"
+     }
+    }
+    SCR_EquipWeaponHolsterAction "{5B28808920776031}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{5B2880892077F8E7}" {
+      Name "#AR-Inventory_EquipHolster"
+     }
+     "Sort Priority" 1
+    }
+    SCR_PickUpItemAction "{5B2880892077F8E6}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{5B2880892077F8E5}" {
+      Name "#AR-Inventory_PickUp"
+     }
+     "Sort Priority" 2
+    }
+    SCR_WeaponAction "{5B2880892077F8E4}" {
+     ParentContextList {
+      "bipod"
+     }
+     UIInfo UIInfo "{5B28808920740A79}" {
+      Name "Bipod"
+     }
+     m_WeaponActionType Bipod
+    }
+    SCR_ToggleSafetyUserAction "{5B28808920740A7E}" {
+     ParentContextList {
+      "firemode"
+     }
+     UIInfo UIInfo "{5B28808920740A7F}" {
+      Name "#AR-Keybind_WeaponSafety"
+     }
+    }
+    SCR_DetachMagazineUserAction "{5B2880892074AA46}" {
+     ParentContextList {
+      "magazine"
+     }
+     UIInfo UIInfo "{5B2880892074AA45}" {
+      Name "#AR-UserAction_Detach"
+     }
+    }
+    SCR_FireModeSwitchUserAction "{5B2880892074AA44}" {
+     ParentContextList {
+      "firemode"
+     }
+     UIInfo UIInfo "{5B28808920752FB4}" {
+      Name "#AR-ControlsHint_NextFireMode"
+     }
+    }
+   }
+  }
+  RplComponent "{5B28808920752FBA}" {
+  }
+ }
+ Flags 4194307
+}

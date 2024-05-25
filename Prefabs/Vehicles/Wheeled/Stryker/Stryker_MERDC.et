@@ -1,0 +1,26 @@
+Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5CB0A69BBC33BB48}" {
+     SourceMaterial "STYKER_base_exterior_Body"
+     AssignedMaterial "{86D026CD28DAE14E}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_base_exterior_MERDC.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1126_Name"
+    m_Image "{DC4ED06C3E5EF887}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_MERDC.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo IFV_Top {
+     Prefab "{EC64C822AF1A55D8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/IFV_Top_MERDC.et"
+    }
+   }
+  }
+ }
+}

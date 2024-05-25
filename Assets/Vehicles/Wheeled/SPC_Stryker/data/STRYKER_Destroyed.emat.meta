@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D1E497BE3F38973D}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_Destroyed.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

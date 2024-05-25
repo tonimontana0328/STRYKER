@@ -1,0 +1,63 @@
+MetaFileClass {
+ Name "{B64264D2288B5C51}Assets/Vehicles/Wheeled/SPC_Stryker/VehParts/Wheels/M1126_wheel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5D48D51850B7C63D}" {
+     SourceMaterial "STYKER_base_Wheels"
+     AssignedMaterial "{10790819EBFE6E70}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_Wheels.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Wheel {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_CG_Wheel {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_rim {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{469B8DA92D8109EC}Common/Materials/Game/Metal/metal_10mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_wheel {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{FF2E0B286EC56463}Common/Materials/Game/RubberTire/rubber_tire_8mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5D48D5185091AE10}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5D48D5185091AF61}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5D48D5185091AF42}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5D48D5185091A8A3}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5D48D5185091A88C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

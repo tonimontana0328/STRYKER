@@ -1,0 +1,27 @@
+MatPBRMulti {
+ MaskMap "{C574EEFA41C601DB}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_base_interior_Fabric_GLOBAL_MASK.edds"
+ GlobalNMOMap "{301C98396FB0F9E1}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_base_interior_Fabric_NMO.edds"
+ Enabled_3 1
+ Color_3 0.047 0.042 0.018 1
+ BCR_3 "{794A8F488BA2687E}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_BCR.edds"
+ NMO_3 "{419234DA52D53AE0}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_NMO.edds"
+ UVTransform_3 MatUVTransform "{5B2A6B6186032197}" {
+  TilingU 20
+  TilingV 20
+ }
+ Enabled_2 1
+ Color_2 0 0 0 1
+ BCR_2 "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
+ NMO_2 "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
+ UVTransform_2 MatUVTransform "{5B2A6B62D6364514}" {
+  TilingU 5
+  TilingV 5
+ }
+ Color_1 0.189 0.292 0.191 1
+ BCR_1 "{794A8F488BA2687E}Assets/_SharedData/Fabric/ST_Fabric_Rough01_1m_BCR.edds"
+ NMO_1 "{61DE3875B9DBD343}Assets/_SharedData/Fabric/ST_FabricWrinkles_1m_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{5B04701949B3D3CD}" {
+  TilingU 8
+  TilingV 8
+ }
+}

@@ -1,0 +1,377 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 1028
+   name "Signal 1"
+   tl -200.75 323.25
+   res "{ABE96CA211499391}Assets/Vehicles/Wheeled/SPC_Stryker/anm/proc/stryker_hatch.siga"
+   inputsport {
+    2 15 17
+   }
+   outputsport {
+    8 13 21 26
+   }
+   inputvalues {
+    0 1 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 1
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 2054
+   name "RotationMake 2054"
+   tl 138.182 113.523
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 8
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet 3078"
+   tl 347.273 -11.932
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 4102
+   name "Bone 4102"
+   version 0
+   tl 148.182 -35.477
+   outs {
+    3078
+   }
+   bone "v_hatch_driver"
+  }
+  RotationMakeClass {
+   id 5126
+   name "RotationMake 5126"
+   tl 125.75 707.714
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 21
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  RotationSetClass {
+   id 6150
+   name "RotationSet 6150"
+   tl 353 640.714
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 7174
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 5126
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 7174
+   name "Bone 7174"
+   version 0
+   tl 124.25 595.714
+   outs {
+    6150
+   }
+   bone "v_hatch_commander"
+  }
+  RotationMakeClass {
+   id 8198
+   name "RotationMake 8198"
+   tl 118.75 1034.464
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 13
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    9222
+   }
+  }
+  RotationSetClass {
+   id 9222
+   name "RotationSet 9222"
+   tl 377.5 953.214
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 10246
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 8198
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 10246
+   name "Bone 10246"
+   version 0
+   tl 116.25 878.214
+   outs {
+    9222
+   }
+   bone "v_backRamp"
+  }
+  TranslateSetClass {
+   id 11270
+   name "TranslateSet 11270"
+   tl 358.75 372.5
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 12294
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 13318
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TranslateMakeClass {
+   id 12294
+   name "TranslateMake 12294"
+   tl 117.5 440
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 26
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    11270
+   }
+  }
+  BoneClass {
+   id 13318
+   name "Bone 13318"
+   version 0
+   tl 122.5 322.5
+   outs {
+    11270
+   }
+   bone "driver_idle"
+  }
+ }
+ model "{1F3441BCF741E661}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_Base.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1409 1281 1153 1025 769 897 641 385 513 257 1 129
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 327680 0 196608 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 524288 0 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 655360 0 720896 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 589824 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 589824 0
+    }
+   }
+  }
+  version 2
+  argsize 20
+ }
+}

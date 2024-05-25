@@ -1,0 +1,8 @@
+MatPBRMulti : "{E38B0F683DF97E10}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Body.emat" {
+ MaskMap "{7E7A1168CF9D2854}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_MGS_exterior_Body_GLOBAL_MASK.edds"
+ VFXMap "{68AD4CED5DC9D5AC}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_MGS_exterior_Body_VFX.edds"
+ GlobalNMOMap "{18DF494501AD64C0}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_MGS_exterior_Body_NMO.edds"
+ MudOpacity 1
+ DirtLayerSharpness 0.59
+ MaskOffset_4 0.113
+}

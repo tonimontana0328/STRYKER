@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3D1CF26E73FAA2C6}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Decal.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

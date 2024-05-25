@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CF08C25F68E8FECF}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/Dragoon_Body_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

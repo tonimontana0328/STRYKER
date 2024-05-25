@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.342 0.008 0.008 1
+ SpecularIBL 0.081 0.053 0.392 1
+ RoughnessScale 0.126
+ NMOMap "{19B02E1737D767C2}Common/Postprocess/Rain/rainripplesmovablenoise.edds"
+ GlobalMapsUVTransform MatUVTransform "{5CA77AA62F0B79E3}" {
+  TilingU 0.01
+  TilingV 0.01
+ }
+}

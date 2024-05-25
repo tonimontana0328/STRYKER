@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7157A276D45B9FE7}Assets/Props/Civilian/FireExtinguisher_SPC/Data/Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

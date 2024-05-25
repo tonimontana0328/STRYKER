@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8F4AE0AD64D79777}Assets/Vehicles/Wheeled/SPC_Stryker/workspaces/Stryker.agr"
+ Configurations {
+  AnimGraphResourceClass PC {
+  }
+  AnimGraphResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphResourceClass PS4 : PC {
+  }
+  AnimGraphResourceClass HEADLESS : PC {
+  }
+ }
+}

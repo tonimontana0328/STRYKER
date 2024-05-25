@@ -1,0 +1,9 @@
+MatPBRDecal {
+ BlendMode AlphaBlend
+ GBufferAlbedo 1
+ GBufferNormal 1
+ NormalCombinePower 1
+ GBufferRoughness 1
+ GBufferMetalness 1
+ GBufferAO 1
+}

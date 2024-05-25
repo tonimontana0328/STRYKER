@@ -1,0 +1,6 @@
+MatPBRBasic {
+ EmissiveLV 0.1
+ ApplyAlbedoToEmissive 1
+ Cull none
+ BCRMap "$rendertarget"
+}

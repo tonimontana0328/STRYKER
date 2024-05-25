@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3142755498BCF3EF}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_MGS_interior_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

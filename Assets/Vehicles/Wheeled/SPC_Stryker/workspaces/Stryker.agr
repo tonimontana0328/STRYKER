@@ -1,0 +1,10 @@
+AnimSrcGraph {
+ AnimSetTemplate "{9DB886AD53124384}Assets/Vehicles/Wheeled/SPC_Stryker/workspaces/Stryker.ast"
+ ControlTemplate AnimSrcGCT "{5B105B8FC9B5D184}" {
+ }
+ Debug AnimSrcGD "{5B105B8FC9B5D1EF}" {
+ }
+ GraphFilesResourceNames {
+  "{A044FE17FA74FE47}Assets/Vehicles/Wheeled/SPC_Stryker/workspaces/Stryker.agf"
+ }
+}

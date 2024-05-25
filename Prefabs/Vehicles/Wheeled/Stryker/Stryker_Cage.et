@@ -1,0 +1,92 @@
+Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 20200
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1126_Name"
+    Icon "{95F49CBE9FF7A0CB}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Apc.edds"
+    m_Image "{A9EC10C909538A1C}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_Cage.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 900
+     }
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     MaxHealth 8000
+     DamageReduction 2
+    }
+    SCR_EngineHitZone Engine {
+     IgnoreExplosions 1
+     MaxHealth 300
+     "DamageState threshold" +{
+     }
+    }
+    SCR_GearboxHitZone Gearbox {
+     IgnoreExplosions 1
+     MaxHealth 300
+     "DamageState threshold" +{
+     }
+    }
+    SCR_EngineHitZone "{6B37047F22EFB1B8}Prefabs/Vehicles/Core/Configs/HitZones/Engine_APC.conf" : "{ECA22E4426890E42}Prefabs/Vehicles/Core/Configs/HitZones/Engine_Truck.conf" {
+     "Fragmentation multiplier" 0.05
+     "Explosive multiplier" 0.2
+    }
+    SCR_GearboxHitZone "{743AF1385C5293C5}Prefabs/Vehicles/Core/Configs/HitZones/Gearbox_APC.conf" : "{CFC88D5376F56AF7}Prefabs/Vehicles/Core/Configs/HitZones/Gearbox_Truck.conf" {
+     "Fragmentation multiplier" 0.025
+     "Explosive multiplier" 0.1
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+    SCR_WheelHitZone "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" : "{0057F048EFBAA600}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Truck.conf" {
+    }
+   }
+   m_fVehicleDestroyDamage 11431.4
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Cage {
+     MergePhysics 1
+     Prefab "{4388B6130BADE574}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+    }
+    EntitySlotInfo CageDoor_01 {
+     PivotID "v_backRamp"
+     Prefab "{78AC7C2B48EE9137}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor.et"
+    }
+    EntitySlotInfo CageDoor_02 {
+     PivotID "v_backRamp"
+     Prefab "{CADD6A45715E7BCA}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5B1A3DAEAA78E3B1}" {
+     Position PointInfo "{5B1A3DAEAA78DC8B}" {
+      Offset 0.0594 0.9274 -0.328
+     }
+    }
+   }
+  }
+ }
+}

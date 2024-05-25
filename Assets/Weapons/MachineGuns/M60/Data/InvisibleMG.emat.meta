@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E11E7DB17FFA9149}Assets/Weapons/MachineGuns/M60/Data/InvisibleMG.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

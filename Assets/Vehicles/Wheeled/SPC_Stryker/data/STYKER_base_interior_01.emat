@@ -1,0 +1,58 @@
+MatPBRMulti {
+ MaskMap "{C0D6FE4FEE2CE118}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_base_interior_01_GLOBAL_MASK.edds"
+ VFXMap "{9A00BF16B4D2FEC5}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_base_interior_01_VFX.edds"
+ GlobalNMOMap "{EA72BABEE8B64FA9}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_base_interior_01_NMO.edds"
+ MudOpacity 0.669
+ MudColor 0.402 0.387 0.361 1
+ MudRoughness 2
+ MudMetalness 0
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{F24299C1F1CA40CB}Assets/_SharedData/DetailMask/ST_footsteps_01_Mask1.edds"
+ MudUVTransform MatUVTransform "{5B0C5B875492B6E6}" {
+  TilingU 8
+  TilingV 8
+  OffsetU 0.425
+  Rotation 64.839
+ }
+ DirtOpacity 0.339
+ DirtLayerSharpness 2
+ DirtColor 0.25 0.231 0.195 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5B0C5B87F74CCC21}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_4 1
+ Color_4 0.238 0.238 0.238 1
+ BCR_4 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_4 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ Mask_4 "{AF3EED70E19D46AB}Assets/_SharedData/DetailMask/ST_Scratches_02_MASK1.edds"
+ UVTransform_4 MatUVTransform "{5B0C3918A0EACF9A}" {
+  TilingU 10
+  TilingV 10
+ }
+ BCR_3 "{21A155389C6BDF4C}Assets/_SharedData/Metal/ST_Metal_Floor_Diamond_BCR.edds"
+ NMO_3 "{37B9B0DFE4B7DEE9}Assets/_SharedData/Metal/ST_Metal_Floor_Diamond_N.edds"
+ Mask_3 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ UVTransform_3 MatUVTransform "{5B0C391B6B77476D}" {
+  TilingU 20
+  TilingV 20
+ }
+ Enabled_2 1
+ Color_2 0.015 0.015 0.015 1
+ BCR_2 "{678C7AE394DD0CBD}Assets/_SharedData/Plastic/ST_Plastic_Fine01_1m_NMO.edds"
+ NMO_2 "{678C7AE394DD0CBD}Assets/_SharedData/Plastic/ST_Plastic_Fine01_1m_NMO.edds"
+ UVTransform_2 MatUVTransform "{5B0C391B2DE8C662}" {
+  TilingU 20
+  TilingV 20
+ }
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{20EF5DA168DE7806}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5B0C39188E0E4DDA}" {
+  TilingU 10
+  TilingV 10
+ }
+}

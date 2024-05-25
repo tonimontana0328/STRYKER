@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.205 0.205 0.205 1
+ RoughnessScale 0.67
+ MetalnessScale 5
+ NormalPower 0.229
+ GlobalMapsUVTransform MatUVTransform "{5CA77AB08E0BD566}" {
+  TilingU 5
+  TilingV 5
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{212C497F57348455}Assets/Vehicles/Wheeled/SPC_Stryker/data/TTRYKER_Exterior_Tan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

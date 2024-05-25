@@ -1,0 +1,13 @@
+GenericEntity : "{4388B6130BADE574}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull.et" {
+ ID "5B2E38E4B081815D"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{60E49D50D17418E2}" {
+     SourceMaterial "Cage"
+     AssignedMaterial "{69F6CBD9B00B9E0F}Assets/Vehicles/Wheeled/SPC_Stryker/Cage/data/Cage_MERDC.emat"
+    }
+   }
+  }
+ }
+}

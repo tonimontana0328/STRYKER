@@ -1,0 +1,29 @@
+Vehicle Stryker_APC1 : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   CenterOfMass 0 1 0.5
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{60EA2A51201AE067}" {
+     Position PointInfo "{60EA2A51312DEC2F}" {
+      Offset 1.2977 1.3849 -3.5706
+     }
+    }
+   }
+  }
+ }
+ coords 1387.187 38 2885.72
+}
+Vehicle Stryker_Dragoon1 : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et" {
+ coords 1394.755 38 2869.571
+}
+Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ coords 1390.31 38 2896.054
+}
+Vehicle Stryker_MGS_Base1 : "{A6B0CF93E155D820}Prefabs/Vehicles/Wheeled/Stryker/Stryker_MGS_Base.et" {
+ coords 1398.252 38 2877.986
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 1379.249 38 2888.073
+}

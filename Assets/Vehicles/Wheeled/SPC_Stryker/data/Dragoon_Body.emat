@@ -1,0 +1,37 @@
+MatPBRMulti {
+ GlobalNMOMap "{CF08C25F68E8FECF}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/Dragoon_Body_NMO.edds"
+ MudOpacity 0.969
+ MudColor 0.102 0.09 0.071 1
+ MudRoughness 2.261
+ MudMetalness 0
+ MudBCRMap "{AE37874A11911124}Assets/_SharedData/Dirt/ST_Mud_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{5CA77AA59C5701BC}" {
+  TilingU 8
+  TilingV 8
+ }
+ DirtOpacity 1
+ DirtLayerSharpness 1.863
+ DirtColor 0.25 0.231 0.195 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5CA77AA5E0B8BD79}" {
+  TilingU 8
+  TilingV 8
+ }
+ Enabled_2 1
+ Color_2 0.044 0.045 0.031 1
+ NMO_2 "{3D30E1118D3FA6AE}Assets/_SharedData/Noises/ST_PerlinNoise_02_NMO.edds"
+ MaskSharpness_2 3.402
+ DetNormal_2 1.275
+ Color_1 0.044 0.045 0.031 1
+ BCR_1 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{5CA77AA563CAE1CD}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_1 1.5
+}

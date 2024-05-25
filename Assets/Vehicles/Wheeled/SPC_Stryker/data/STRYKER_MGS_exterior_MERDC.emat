@@ -1,0 +1,5 @@
+MatPBRMulti : "{86D026CD28DAE14E}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_base_exterior_MERDC.emat" {
+ MaskMap "{A17E3F0E1932CDDF}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_MGS_exterior_Body_Merdec_GLOBAL_MASK.edds"
+ VFXMap "{68AD4CED5DC9D5AC}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_MGS_exterior_Body_VFX.edds"
+ GlobalNMOMap "{18DF494501AD64C0}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STYKER_MGS_exterior_Body_NMO.edds"
+}

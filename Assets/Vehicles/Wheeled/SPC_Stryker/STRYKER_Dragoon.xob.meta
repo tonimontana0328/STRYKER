@@ -1,0 +1,84 @@
+MetaFileClass {
+ Name "{5A60F4523D1F5EA2}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_Dragoon.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5CA77AA4F4359112}" {
+     SourceMaterial "Dragoon_Body"
+     AssignedMaterial "{ACE1DEE0706A9C0D}Assets/Vehicles/Wheeled/SPC_Stryker/data/Dragoon_Body.emat"
+    }
+    MaterialAssignClass "{5CA77AA4F4359178}" {
+     SourceMaterial "Dragoon_Glass"
+     AssignedMaterial "{76308FBF560C5C72}Assets/Vehicles/Wheeled/SPC_Stryker/data/Dragoon_Glass.emat"
+    }
+    MaterialAssignClass "{5CA77AA4F4359176}" {
+     SourceMaterial "STYKER_base_interior_01"
+     AssignedMaterial "{2377835BEC6EB038}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_interior_01.emat"
+    }
+    MaterialAssignClass "{5CA77AA4F4359174}" {
+     SourceMaterial "Dragoon_Body_Black"
+     AssignedMaterial "{2DDCF2CA80BFD115}Assets/Vehicles/Wheeled/SPC_Stryker/data/Dragoon_Body_Black.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Dragoon_Base {
+    }
+    MeshParam Dragoon_Turret {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Dragoon_Turret {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Dragoon_Base {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+      "{CCB8BAE847CF1561}Common/Materials/Game/Metal/metal_5mm_min.gamemat"
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Dragoon_Turret {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+      "{CCB8BAE847CF1561}Common/Materials/Game/Metal/metal_5mm_min.gamemat"
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5CA77AA4EADCD335}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5CA77AA4EADCAE17}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5CA77AA4EADCAFF4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5CA77AA4EADCAF32}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5CA77AA4EADCAF78}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

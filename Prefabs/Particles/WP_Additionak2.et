@@ -1,0 +1,15 @@
+SCR_ParticleEmitter {
+ ID "5B2D7DB5EB683511"
+ components {
+  SoundComponent "{5B2D7DB5EB68351A}" {
+   Enabled 0
+   Mute 1
+   Filenames {
+    "{ADF9249D6654328B}Sounds/Compositions/Misc/Campfire/Compositions_Campfire.acp"
+   }
+   IncludeInactive 1
+  }
+ }
+ coords -18.547 0.1 -56.166
+ m_EffectPath "{54798B49EEADDD61}Particles/WP_Bebra2.ptc"
+}

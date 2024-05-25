@@ -1,0 +1,23 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "5B2679F47B40F600"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{9C848ACB4BEF1BA6}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_IFV_Top.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Top {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     "Collision multiplier" 0
+     m_fPassDamageToParentScale 1
+     m_pDestructionHandler SCR_DestructionBaseHandler "{60FA022F59E9E4B1}" {
+     }
+     m_vParticleOffset 0 0 0
+    }
+   }
+  }
+ }
+}

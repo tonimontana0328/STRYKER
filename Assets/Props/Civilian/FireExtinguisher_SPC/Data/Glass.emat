@@ -1,0 +1,4 @@
+MatPBRBasicGlass {
+ Color 0.761 0.883 1 1
+ AlphaMul 0.1
+}

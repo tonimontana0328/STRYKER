@@ -1,0 +1,31 @@
+GenericEntity : "{8DB4EEC64B2C8A08}Prefabs/Vehicles/Core/VehicleWheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{B64264D2288B5C51}Assets/Vehicles/Wheeled/SPC_Stryker/VehParts/Wheels/M1126_wheel.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_WheelHitZone Wheel {
+     HZDefault 1
+     MaxHealth 800
+     DamageReduction 10
+     DamageThreshold 0
+     "Collision multiplier" 0.7
+     "Fragmentation multiplier" 0.6
+     "Explosive multiplier" 3
+     "DamageState threshold" {
+      0.4
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5D46F8679F2AEA61}" {
+      m_bAllowHideWreck 0
+     }
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup WHEELS
+     m_fDestroyedRoughnessIncrease 3
+     m_fDestroyedDrag 1
+    }
+   }
+  }
+ }
+}

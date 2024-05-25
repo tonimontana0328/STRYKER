@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FC8B551E8FD0BDEB}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_base_DriverSight.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

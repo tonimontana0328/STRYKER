@@ -1,0 +1,49 @@
+Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_M1126_M2_Name"
+    m_Image "{9C121754FE325C64}UI/Textures/EditorPreviews/Vehicles/Wheeled/Stryker/Stryker_CROWS.edds"
+    m_aAuthoredLabels + {
+     21
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1000
+     }
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5EAD79DA34C9209F}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60DE236EF75CAE7B}" {
+     SlotTemplate InventoryStorageSlot Ammo {
+      Prefab "{7368DBD1BB3633B8}Prefabs/Weapons/Magazines/Box_127x99_M2_200rnd_4AP_1APIT_inherited.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo CROWS {
+     MergePhysics 1
+     Prefab "{756113661CAA5340}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_CROWS_Turret.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

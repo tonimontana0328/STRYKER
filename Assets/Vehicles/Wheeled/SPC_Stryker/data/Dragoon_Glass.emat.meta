@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{76308FBF560C5C72}Assets/Vehicles/Wheeled/SPC_Stryker/data/Dragoon_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

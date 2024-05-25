@@ -1,0 +1,225 @@
+EffectDef {
+ Emitters {
+  EmitterDef s0_smoke_cloned {
+   ShapeSize 1 1 1
+   ConeAngle 360 0 180
+   MaxNum 55
+   BirthRate 25
+   BirthRateRND 0
+   BirthRateVel 1
+   Angles 0 0 180
+   LocalTransform 0
+   LodMin 0
+   LodMax 2
+   Material "{F6A094A1E9EBFE4F}Particles/_Materials/Gas/Smoke_loop_01_WP.emat"
+   SizeMultiplier 12
+   SizeRND 5
+   RotMultiplier 3.8
+   RotRND 9.1
+   RandomRotDir 1
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 12
+   VelocityRND 8
+   AirResistance 15
+   AirResistanceRND 2
+   WindInfluence 0.185
+   GravityMultiply 0.896
+   GravityMultiplyRND -0.1
+   Restitution 1
+   AnimFPS 50
+   RandomFrame 0
+   Lifetime 20
+   LifetimeRND 5
+   Color {
+    0.001 1 1 1
+   }
+   Alpha {
+    0 0.57 0.126 0.558 0.377 0.394 0.753 0.17 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 0.003 0.158 0.286 0.552 0.587 0.83 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef Glow {
+   ShapeSize 1 1 1
+   ConeAngle 360 0 35
+   MaxNum 1
+   BirthRate 7777
+   BirthRateRND 0
+   BirthRateVel 1
+   Offset 0 -1 0
+   Angles 0 0 180
+   LocalTransform 0
+   LodMin 0
+   LodMax 2
+   ParticleType Prefab
+   Material "{F6A094A1E9EBFE4F}Particles/_Materials/Gas/Smoke_loop_01_WP.emat"
+   Prefab "{7E5D8B0143E873AA}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/lightt.et"
+   SizeMultiplier 1
+   RotMultiplier 3.8
+   RotRND 9.1
+   RandomRotDir 1
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 0
+   AirResistance 20
+   AirResistanceRND 2
+   Restitution 1
+   AnimFPS 50
+   RandomFrame 0
+   Lifetime 0.1
+   LifetimeRND 0.05
+   Color {
+    0.001 1 1 1
+   }
+   Alpha {
+    0 0.679 0.163 0.648 0.782 0.436 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 0.003 0.158 0.286 0.552 0.587 0.83 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef s0_smoke_cloned_cloned1 {
+   ShapeSize 1 1 1
+   MaxNum 1
+   BirthRateRND 0
+   BirthRateVel 1
+   Offset 0 -0.5 0
+   Angles 0 0 180
+   LocalTransform 0
+   LodMin 0
+   LodMax 2
+   Material "{6E033C070B32B17C}Particles/_Materials/Fire/Explosion_Base_03.emat"
+   SizeMultiplier 0.3
+   RotMultiplier 3.8
+   RotRND 9.1
+   RandomRotDir 1
+   RandomUFlip 1
+   AirResistance 15
+   AirResistanceRND 2
+   WindInfluence 0.185
+   GravityMultiply 0.375
+   GravityMultiplyRND -0.1
+   Restitution 1
+   AnimFPS 60
+   RandomFrame 0
+   Lifetime 0.25
+   Color {
+    0.001 1 1 1
+   }
+   Alpha {
+    0 1 0.035 1 0.782 0.436 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.176 0.096 0.388 0.286 0.552 0.587 0.83 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef s0_smoke_cloned_cloned {
+   ShapeSize 1 1 1
+   ConeAngle 360 0 75
+   MaxNum 25
+   BirthRate 20
+   BirthRateRND 0
+   BirthRateVel 1
+   Angles 0 0 180
+   LocalTransform 0
+   LodMin 0
+   LodMax 2
+   Material "{67165826DF051410}Particles/_Materials/Gas/Smoke_Explosion_02_WP.emat"
+   SizeMultiplier 10
+   SizeRND 2
+   RotMultiplier 3.8
+   RotRND 10.6
+   RandomRotDir 1
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 12
+   VelocityRND 5
+   AirResistance 15
+   AirResistanceRND 2
+   WindInfluence 0.195
+   GravityMultiply 1.25
+   GravityMultiplyRND -0.204
+   Restitution 1
+   AnimOnce 1
+   AnimFPS 15
+   RandomFrame 0
+   Lifetime 20
+   LifetimeRND 5
+   Alpha {
+    0 1 0.09 1 0.355 1 0.726 0.436 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 0.003 0.206 0.089 0.455 0.194 0.552 0.703 0.861 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef s0_smoke_cloned_cloned_cloned {
+   ShapeSize 1 1 1
+   ConeAngle 360 0 100
+   MaxNum 55
+   BirthRate 25
+   BirthRateRND 0
+   BirthRateVel 1
+   Angles 0 0 180
+   LocalTransform 0
+   LodMin 0
+   LodMax 2
+   Material "{C6F4DCD7DC66D027}Particles/_Materials/Gas/Smoke_Weapons_01.emat"
+   SizeMultiplier 9
+   SizeRND 4
+   RotMultiplier 3.8
+   RotRND 10.6
+   RandomRotDir 1
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 12
+   VelocityRND 5
+   AirResistance 15
+   AirResistanceRND 2
+   WindInfluence 0.195
+   GravityMultiply 1.25
+   GravityMultiplyRND -0.204
+   Restitution 1
+   AnimOnce 1
+   AnimFPS 15
+   RandomFrame 0
+   Lifetime 20
+   LifetimeRND 5
+   Color {
+    0 0.873 0.861 0.842 1 1 1 1
+   }
+   Alpha {
+    0 1 0.237 1 0.563 1 0.801 0.23 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0 0.003 0.206 0.089 0.455 0.194 0.552 0.703 0.861 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E60D78FE87A1F450}Sounds/Weapons/HeavyWeapons/M2/Weapons_HeavyWeapons_MGS_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

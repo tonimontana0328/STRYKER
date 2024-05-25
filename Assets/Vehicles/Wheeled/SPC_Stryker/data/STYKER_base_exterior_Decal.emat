@@ -1,0 +1,11 @@
+MatPBRDecal {
+ Color 0 0 0 1
+ SortBias 1
+ BlendMode AlphaBlend
+ OpacityMap "{F6C9661C0431D771}Assets/Vehicles/Wheeled/SPC_Stryker/data/Textures/STRYKER_decals_01.edds"
+ GBufferNormal 1
+ NormalCombinePower 1
+ GBufferRoughness 1
+ GBufferMetalness 1
+ GBufferAO 1
+}

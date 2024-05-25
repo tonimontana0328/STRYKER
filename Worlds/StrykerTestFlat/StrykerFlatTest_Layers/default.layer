@@ -1,0 +1,162 @@
+Vehicle Stryker_CROWS_Cage_MERDC1 : "{094A1ECBEE1D9AD1}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_Cage_MERDC.et" {
+ coords 83.992 1 220.79
+}
+GenericEntity : "{1571BF54599093AF}PrefabsEditable/Auto/Props/Furniture/E_MeetingTable_01.et" {
+ coords 66.772 1 253.261
+}
+Vehicle Stryker_APC1 : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
+ coords 68.27 1 233.259
+}
+Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ coords 36.289 1 241.459
+}
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 44.971 1 251.342
+}
+GenericEntity : "{40751B34DE63F3CA}Prefabs/Vehicles/Wheeled/Stryker/VehParts/IFV_Top.et" {
+ coords 53.75 1 230.997
+}
+GenericEntity : "{4388B6130BADE574}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull.et" {
+ coords 79.67 1 250.817
+}
+Vehicle Stryker_Dragoon_Cage1 : "{44E2468321E19451}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon_Cage.et" {
+ coords 95.341 1 233.734
+}
+Vehicle Stryker_Dragoon1 : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et" {
+ coords 90.216 1 233.777
+}
+GenericEntity : "{49F537629934E058}Prefabs/Weapons/Warheads/Warhead_HE_MK238.et" {
+ coords 65.889 1.906 252.813
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ coords 40.05 1 251.741
+}
+Vehicle S1203_base1 : "{4AE9D080927D3CB9}Prefabs/Vehicles/Wheeled/S1203/S1203_base.et" {
+ coords 30.529 1 247.855
+}
+GenericEntity : "{4E5531CDAE20F9EF}Prefabs/Vehicles/Wheeled/M151A2/M151A2_canvas_roof.et" {
+ coords 96.322 1 248.266
+}
+TracerProjectile : "{5DD797F846EA262E}Prefabs/Weapons/Ammo/Ammo_105mm_HEATFS.et" {
+ coords 66.649 1.906 253.294
+}
+Vehicle Stryker_CROWS_Cage1 : "{5F17F054025E8B30}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_Cage.et" {
+ coords 83.505 1 233.081
+}
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ coords 50.579 1 241.695
+}
+Turret : "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_MGS_Turret.et" {
+ coords 54.266 1 234.883
+}
+GenericEntity : "{6CD42085EBC53272}Prefabs/Weapons/HeavyWeapons/MGS_Cannon.et" {
+ coords 50.403 1 231.613
+}
+Vehicle Stryker_CROWS_MERDC1 : "{73C1BB5B830C9F05}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS_MERDC.et" {
+ coords 78.505 1 220.861
+}
+GenericEntity : "{78AC7C2B48EE9137}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor.et" {
+ coords 73.735 1 249.335
+}
+Vehicle Stryker_Cage1 : "{7A561BEDC287CC52}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Cage.et" {
+ coords 73.832 1 233.159
+}
+GenericEntity : "{8DB16E4E107CE934}Prefabs/Weapons/Warheads/Warhead_HEATFS_105mm.et" {
+ coords 66.659 1.906 252.868
+}
+GenericEntity : "{9058D61B520DE32B}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_sparetire_holder.et" {
+ coords 87.182 1 248.832
+}
+Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ coords 43.467 1 242.471
+}
+Vehicle Stryker_MGS_Base1 : "{A6B0CF93E155D820}Prefabs/Vehicles/Wheeled/Stryker/Stryker_MGS_Base.et" {
+ coords 102.082 1 233.695
+}
+Vehicle Stryker_MGS_MERDC1 : "{A76DCC7AD6494682}Prefabs/Vehicles/Wheeled/Stryker/Stryker_MGS_MERDC.et" {
+ coords 102.417 1 222.777
+}
+Vehicle M1025_armed_base1 : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" {
+ coords 48.765 1 251.226
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Differentials {
+     Differential Diff_01_03 {
+      Output1 "Diff_02"
+     }
+     Differential Diff_02_04 {
+      Ratio 1
+      Output0 "Diff_03"
+     }
+    }
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      Differential Differential Diff_01 {
+       Output1 "Wheel_L02"
+      }
+     }
+     Axle "{4D8B26DF8CF2F3D8}" {
+      Differential Differential Diff_02 {
+       Output0 "Wheel_L03"
+       Output1 "Wheel_L04"
+      }
+     }
+     Axle "{54A2A290B157C04D}" {
+      Differential Differential Diff_03 {
+       Output0 "Wheel_R01"
+       Output1 "Wheel_R02"
+      }
+     }
+     Axle "{54A2A290B157C044}" {
+      Differential Differential Diff_04 {
+       Output0 "Wheel_R03"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 61.866 1 243.576
+}
+GenericEntity : "{CDC9B058FCD74FB7}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_MERDC.et" {
+ coords 94.235 1 204.797
+}
+Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+ coords 35.327 1 247.998
+}
+Turret : "{DAA1E2C22905F361}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_Dragoon_Turret.et" {
+ coords 54.264 1 245.153
+}
+TracerProjectile : "{DB3235C23AACE5FD}Prefabs/Weapons/Ammo/Ammo_30x173_APFSDS_GAU-8.et" {
+ coords 66.271 1.906 253.291
+}
+Vehicle Stryker_Base1 : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
+ coords 62.854 1 232.915
+}
+TracerProjectile : "{E199DE601FF9B919}Prefabs/Weapons/Ammo/Ammo_30x173_HEIT_GAU-8.et" {
+ coords 65.906 1.906 253.292
+}
+Vehicle Stryker_CROWS1 : "{E3DD72FD06BA2320}Prefabs/Vehicles/Wheeled/Stryker/Stryker_CROWS.et" {
+ coords 78.629 1 233.14
+}
+GenericEntity : "{E75436A7FC5EAB10}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull_MERDC.et" {
+ coords 103.025 1 251.408
+}
+Vehicle Stryker_Cage_MERDC1 : "{E80BE5CFA7FFB275}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Cage_MERDC.et" {
+ coords 73.045 1 220.216
+}
+GenericEntity : "{EC64C822AF1A55D8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/IFV_Top_MERDC.et" {
+ coords 60.331 1 217.361
+}
+Vehicle Stryker_MERDC1 : "{F59374CADC202C97}Prefabs/Vehicles/Wheeled/Stryker/Stryker_MERDC.et" {
+ coords 68.003 1 220.988
+}
+TracerProjectile : "{F9D2E0F111B114EC}Prefabs/Weapons/Ammo/Ammo_105mm_APFSDS_MGS_M900.et" {
+ coords 67.003 1.906 253.299
+}
+GenericEntity : "{FDD5DCB5087A821F}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02_MERDC.et" {
+ coords 89.307 1 206.573
+}
