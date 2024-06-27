@@ -36,11 +36,46 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    }
   }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{61B6F2B3904C6A36}" {
+     AnimDoorIndex 6
+     ContextName "door_l01"
+     Coverage 1
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{61B7206DE3E360E7}" {
+      UIInfo SCR_ActionUIInfo "{61B6F1CB9EFCB25D}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{61B7206D9F876A9E}" {
+      UIInfo SCR_ActionUIInfo "{61B6F1CB9EFCB253}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" -1
+     }
+     EntryPositionInfo PointInfo "{61B6F2B3BD509322}" {
+      Offset 0.2103 0.5041 -4.5057
+     }
+     ExitPositionInfo PointInfo "{61B6F2B3BF9D6182}" {
+      Offset 0.2103 0.5041 -4.5057
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 0
+    }
+    CompartmentDoorReference "{61B6F2B0870FCF9C}" {
+     AnimDoorIndex 3
+    }
+   }
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
      CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
       ParentContextList {
-       "gunner_idle"
+       "gunner_idle" "gunner_hatch"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2CF6E6E730}" {
       }
       Duration 0.5
       CanAggregate 1
@@ -50,39 +85,29 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
       ParentContextList {
        "gunner"
       }
+      "Sort Priority" 2
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "gunner_idle"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "gunner_idle" "gunner_hatch" "backRamp"
+       }
+      }
      }
      PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
       PivotID "gunner_idle"
      }
      SeatType 2
      DoorInfoList {
-      CompartmentDoorInfo "{50B917CA9C90BD91}" {
-       ContextName "door_l01"
-       AnimDoorIndex 6
-       EntryPositionInfo PointInfo "{50B917CA96E757AA}" {
-        Offset 0.2103 0.5041 -4.5057
-       }
-       ExitPositionInfo PointInfo "{5CA77AA65F673D59}" {
-        PivotID "driver_getout"
-        Offset 0.2103 0.5041 -4.5057
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-       EntryPositionAligning 0
-       SeatPositionAligning 0
-      }
+      0 1
      }
-     UIInfo UIInfo "{50870A10DCCDED83}" {
-      Name "#AR-VehiclePosition_Gunner"
-     }
-     AccessibilitySettings CompartmentAccessibilityContext "{5CA77AA65F673D56}" {
-     }
-     BaseCoverage 1
-     CanOccupantEquipGadget 1
-     RestrictedItemTypes +{
-     }
-     m_DefaultOccupantData SCR_DefaultOccupantData "{5CA77AA65F673EAB}" {
-      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{61B6F2B36AFF52DA}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
      }
     }
    }
@@ -169,7 +194,6 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      ADSTime 0
      CameraRecoilAmount 0
-     m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
      m_sReticleTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
      m_sReticleGlowTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
      m_bHasIllumination 1
@@ -179,16 +203,12 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_fReticleAngularSize 3.6
      m_fReticlePortion 0.53711
      m_fReticleBaseZoom 2.6
-     m_bIsTurretOptic 1
      m_fObjectiveFov 23
      m_fObjectiveScale 0.77
      m_fVignetteScale 0.847
      m_bShouldHideParentObject 0
      m_fVignetteMoveSpeed 30
      m_fMotionBlurScale 0
-     m_fRecoilScaleMax 1
-     m_fRecoilTranslationTarget 0.001
-     m_fRecoilScaleTranslation 1
     }
    }
    SignalsSourceAccess SignalsSourceAccessClass "{5CA77AA65F673EB7}" {
@@ -279,4 +299,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    AutoVariablesBind 1
   }
  }
+ coords 1333.611 38 2878.177
 }

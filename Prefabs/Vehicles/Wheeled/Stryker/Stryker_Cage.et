@@ -72,10 +72,12 @@ Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/Stryker_APC.et" {
     EntitySlotInfo CageDoor_01 {
      PivotID "v_backRamp"
      Prefab "{78AC7C2B48EE9137}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor.et"
+     DisablePhysicsInteraction 1
     }
     EntitySlotInfo CageDoor_02 {
      PivotID "v_backRamp"
      Prefab "{CADD6A45715E7BCA}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02.et"
+     DisablePhysicsInteraction 1
     }
    }
   }

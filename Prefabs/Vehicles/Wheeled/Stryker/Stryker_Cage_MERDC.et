@@ -26,9 +26,11 @@ Vehicle : "{7A561BEDC287CC52}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Cage.et" {
     }
     EntitySlotInfo CageDoor_01 {
      Prefab "{CDC9B058FCD74FB7}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_MERDC.et"
+     DisablePhysicsInteraction 1
     }
     EntitySlotInfo CageDoor_02 {
      Prefab "{FDD5DCB5087A821F}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02_MERDC.et"
+     DisablePhysicsInteraction 1
     }
     EntitySlotInfo SupplyStorage_10 {
      Offset 0.3533 2.0028 -1.2875
@@ -40,4 +42,5 @@ Vehicle : "{7A561BEDC287CC52}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Cage.et" {
    }
   }
  }
+ coords 1364.4 38 2932.271
 }

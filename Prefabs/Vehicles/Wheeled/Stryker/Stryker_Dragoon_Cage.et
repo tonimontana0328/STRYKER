@@ -20,21 +20,25 @@ Vehicle : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et
     RegisteringComponentSlotInfo Cage {
      MergePhysics 1
      Prefab "{4388B6130BADE574}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageFull.et"
+     DisablePhysicsInteraction 1
      RegisterDamage 1
     }
     RegisteringComponentSlotInfo Cage_Back_01 {
      PivotID "v_backRamp"
      MergePhysics 1
      Prefab "{78AC7C2B48EE9137}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor.et"
+     DisablePhysicsInteraction 1
      RegisterDamage 1
     }
     RegisteringComponentSlotInfo Cage_Back_02 {
      PivotID "v_backRamp"
      MergePhysics 1
      Prefab "{CADD6A45715E7BCA}Prefabs/Vehicles/Wheeled/Stryker/VehParts/CageBackDoor_02.et"
+     DisablePhysicsInteraction 1
      RegisterDamage 1
     }
    }
   }
  }
+ coords 1378.392 38 2882.657
 }

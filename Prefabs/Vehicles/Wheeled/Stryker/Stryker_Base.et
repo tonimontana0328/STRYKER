@@ -84,7 +84,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      LightCastShadowsOverride 0
      LightShouldTick 1
      LightSide 1
-     ParentSurface 0
+     ParentSurface "0"
      m_sLightOnEventName "SOUND_TURNSIGNAL_ON"
      m_sLightOffEventName "SOUND_TURNSIGNAL_OFF"
     }
@@ -97,7 +97,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      LightCastShadowsOverride 0
      LightShouldTick 1
      LightSide 0
-     ParentSurface 7
+     ParentSurface "7"
      m_sLightOnEventName "SOUND_TURNSIGNAL_ON"
      m_sLightOffEventName "SOUND_TURNSIGNAL_OFF"
     }
@@ -109,7 +109,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      LightCastShadowsOverride 0
      LightShouldTick 1
      LightSide 1
-     ParentSurface 6
+     ParentSurface "6"
      m_sLightOnEventName "SOUND_TURNSIGNAL_ON"
      m_sLightOffEventName "SOUND_TURNSIGNAL_OFF"
     }
@@ -124,7 +124,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      LightPrefab "{8E0D13E02E4229A2}Prefabs/Vehicles/Core/Lights/VehicleLight_Head_Base.et"
      IsPresenceLight 1
-     ParentSurface 2
+     ParentSurface "2"
     }
     BaseLightSlot "{5EAD79DA34C88C61}" {
      LightType Head
@@ -133,7 +133,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      LightPrefab "{8E0D13E02E4229A2}Prefabs/Vehicles/Core/Lights/VehicleLight_Head_Base.et"
      IsPresenceLight 1
-     ParentSurface 3
+     ParentSurface "3"
     }
     BaseLightSlot "{5EAD79DA34C88C60}" {
      LightType HiBeam
@@ -141,7 +141,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       Offset -0.8212 1.5892 3.5344
      }
      LightPrefab "{640BCE1BD611FB3E}Prefabs/Vehicles/Core/Lights/VehicleLight_HiBeam_Base.et"
-     ParentSurface 2
+     ParentSurface "2"
     }
     BaseLightSlot "{5EAD79DA34C88C63}" {
      LightType HiBeam
@@ -149,7 +149,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       Offset 0.9229 1.5892 3.5344
      }
      LightPrefab "{640BCE1BD611FB3E}Prefabs/Vehicles/Core/Lights/VehicleLight_HiBeam_Base.et"
-     ParentSurface 3
+     ParentSurface "3"
     }
     BaseLightSlot "{5EAD79DA34C88C62}" {
      LightType Rear
@@ -161,7 +161,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      LightPrefab "{7833C651845BB039}Prefabs/Vehicles/Core/Lights/VehicleLight_Rear_Base.et"
      LightCastShadowsOverride 0
      IsPresenceLight 1
-     ParentSurface 7
+     ParentSurface "7"
     }
     BaseLightSlot "{5EAD79DA34C88C6D}" {
      LightType Rear
@@ -171,7 +171,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      LightPrefab "{7833C651845BB039}Prefabs/Vehicles/Core/Lights/VehicleLight_Rear_Base.et"
      IsPresenceLight 1
-     ParentSurface 6
+     ParentSurface "6"
     }
     BaseLightSlot "{5EAD79DA34C88C6C}" {
      LightType Brake
@@ -182,7 +182,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      LightPrefab "{29C9409481D613E5}Prefabs/Vehicles/Core/Lights/VehicleLight_Brake_Base.et"
      LightCastShadowsOverride 0
-     ParentSurface 7
+     ParentSurface "7"
     }
     BaseLightSlot "{5EAD79DA34C88C6F}" {
      LightType Brake
@@ -192,7 +192,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       Angles 0 180 0
      }
      LightPrefab "{29C9409481D613E5}Prefabs/Vehicles/Core/Lights/VehicleLight_Brake_Base.et"
-     ParentSurface 6
+     ParentSurface "6"
     }
     BaseLightSlot "{5EAD79DA34C88C6E}" {
      LightType Dashboard
@@ -370,7 +370,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
   }
   BaseVehicleNodeComponent "{20FB66C5B2237133}" {
    components {
-    SCR_CarControllerComponent_SA "{20FB66C5BC92275B}" {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
      MaxStartupTime 1
      AirIntakes {
       PointInfo "{5EAD79DA34C91F7D}" {
@@ -421,14 +421,54 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    AngularSleepingThreashold 0.5
   }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{61B6D725F6142D64}" {
+     ContextName "Hatch"
+     EntryPositionInfo PointInfo "{61B6D725E2EE2C9A}" {
+      PivotID "driver_getIn"
+      Offset -0.4198 2.5723 3.7733
+      Angles 0 180 0
+     }
+     ExitPositionInfo PointInfo "{61B6D7259D4F5B2F}" {
+      PivotID "driver_getIn"
+      Offset -0.4198 2.5723 3.7733
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+    }
+    CompartmentDoorInfo "{61B6D725F16C2891}" {
+     AnimDoorIndex 2
+     ContextName "Interior"
+     EntryPositionInfo PointInfo "{61B6D725B9E8545F}" {
+      Offset -0.4198 2.5723 3.7733
+     }
+     ExitPositionInfo PointInfo "{61B6D725B3E215CA}" {
+      Offset -0.4198 2.5723 3.7733
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+    }
+    CompartmentDoorInfo "{61B6F2B66A5E924A}" {
+     AnimDoorIndex 3
+     ContextName "Ramp"
+     Coverage 0.7
+     EntryPositionInfo PointInfo "{61B6F2B61E9323DA}" {
+      PivotID "v_backRamp"
+     }
+     ExitPositionInfo PointInfo "{61B6F2B619235E91}" {
+      PivotID "v_backRamp"
+      Angles 0 0 0
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+    }
+   }
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
-     DefaultOccupantName "Driver"
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
       ParentContextList {
        "hatch_driver" "driver_idle"
       }
-      CanAggregate 1
      }
      GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" {
       ParentContextList {
@@ -440,35 +480,24 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
        "driver_idle"
       }
      }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
+       ParentContextList {
+        "driver_idle"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+       ParentContextList {
+        "hatch_driver" "driver_idle"
+       }
+      }
+     }
      PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
       PivotID "driver_idle"
      }
      DoorInfoList {
-      CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
-       ContextName "Hatch"
-       EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
-        Offset -0.4198 2.5723 3.7733
-        Angles 0 180 0
-       }
-       ExitPositionInfo PointInfo "{5EAD79DA34C91F5B}" {
-        Offset -0.4198 2.5723 3.7733
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-      }
-      CompartmentDoorInfo "{5EAD79DA34C91F5A}" {
-       ContextName "Interior"
-       AnimDoorIndex 2
-       EntryPositionInfo PointInfo "{5EAD79DA34C920C2}" {
-        Offset 0 0.7362 -0.6209
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-      }
+      0 1
      }
-     AccessibilitySettings CompartmentAccessibilityContext "{5EAD79DA34C920C0}" {
-     }
-     BaseCoverage 1
     }
    }
   }
@@ -632,7 +661,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    MultiSlots {
     MultiSlotConfiguration "{5EAD79DA34C92088}" {
      SlotTemplate InventoryStorageSlot Bandage {
-      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
      NumSlots 2
     }
@@ -836,7 +865,8 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    m_fVehicleDestroyDamage 13658
    m_fVehicleDamageSpeedThreshold 25
   }
-  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Enabled 1
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     Engine Engine Engine {
      Inertia 1
@@ -869,14 +899,12 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      Differential Diff_01_03 {
       Type LSD
-      Ratio 1
       Strength 1
       Output0 "Diff_01"
       Output1 "Diff_03"
      }
      Differential Diff_02_04 {
       Type LSD
-      Ratio 1
       Strength 1
       Output0 "Diff_02"
       Output1 "Diff_04"
@@ -893,7 +921,6 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
        Output1 "Wheel_R01"
       }
       Suspension Suspension "{4D8B26DFF8859A7B}" : "{45C78A0CBB364934}Prefabs/Vehicles/Wheeled/Stryker/Configs/StrykerSuspension.conf" {
-       MaxSteeringAngle 28
        SpringRate 180
       }
       Wheel Wheel "{4D8B26DFFE211745}" : "{9453466509C3E109}Prefabs/Vehicles/Wheeled/Stryker/Configs/StrykerWheels.conf" {
@@ -973,6 +1000,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       }
      }
     }
+    InertiaOverrideEnabled 0
     InertiaOverride 95500 98500 28000
     Aerodynamics Aerodynamics "{5562A82E3F4CE5C2}" {
      ReferenceArea 7
@@ -1009,13 +1037,13 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
     ProcAnimParams "{5B1A3DAB0C07286F}" : "{57B1374F5E9E3FE9}Assets/Vehicles/Wheeled/SPC_Stryker/wheel.conf" {
      ResourceName "{FEFBB47B33FB500F}anims/proc/wheel_suspension.pap"
      BoneNames {
-      "v_wheel_l03" "v_suspension_l03" ""
+      "v_wheel_l03" "v_suspension_l03"
      }
     }
     ProcAnimParams "{5B1A3DAB1009B9D9}" : "{57B1374F5E9E3FE9}Assets/Vehicles/Wheeled/SPC_Stryker/wheel.conf" {
      ResourceName "{FEFBB47B33FB500F}anims/proc/wheel_suspension.pap"
      BoneNames {
-      "v_wheel_l04" "v_suspension_l04" ""
+      "v_wheel_l04" "v_suspension_l04"
      }
     }
     ProcAnimParams "{5B1A3DAB1B880693}" : "{57B1374F5E9E3FE9}Assets/Vehicles/Wheeled/SPC_Stryker/wheel.conf" {
@@ -1033,13 +1061,13 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
     ProcAnimParams "{5B1A3DAB779C07A0}" : "{57B1374F5E9E3FE9}Assets/Vehicles/Wheeled/SPC_Stryker/wheel.conf" {
      ResourceName "{FEFBB47B33FB500F}anims/proc/wheel_suspension.pap"
      BoneNames {
-      "v_wheel_r03" "v_suspension_r03" ""
+      "v_wheel_r03" "v_suspension_r03"
      }
     }
     ProcAnimParams "{5B1A3DAB7B45AD4E}" : "{57B1374F5E9E3FE9}Assets/Vehicles/Wheeled/SPC_Stryker/wheel.conf" {
      ResourceName "{FEFBB47B33FB500F}anims/proc/wheel_suspension.pap"
      BoneNames {
-      "v_wheel_r04" "v_suspension_r04" ""
+      "v_wheel_r04" "v_suspension_r04"
      }
     }
     ProcAnimParams "{5EAD79DA34CBCC77}" {
@@ -1125,21 +1153,24 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
     }
     EntitySlotInfo Extinguisher_01 {
      Offset -1.0742 2.008 0.0803
-     Angles 0 0 -171.44589
+     Angles 0 0 -171.44588
      MergePhysics 1
      Prefab "{C5383A915355E2F7}Prefabs/Props/Civilian/FireExtinguisher_SPC.et"
+     DisablePhysicsInteraction 1
     }
     EntitySlotInfo Extinguisher_02 {
      Offset 1.2143 1.8237 -0.4967
      Angles 180 0 0
      MergePhysics 1
      Prefab "{C5383A915355E2F7}Prefabs/Props/Civilian/FireExtinguisher_SPC.et"
+     DisablePhysicsInteraction 1
     }
     EntitySlotInfo Extinguisher_03 {
      Offset 1.2143 1.8237 -0.6954
      Angles 180 0 0
      MergePhysics 1
      Prefab "{C5383A915355E2F7}Prefabs/Props/Civilian/FireExtinguisher_SPC.et"
+     DisablePhysicsInteraction 1
     }
     RegisteringComponentSlotInfo IFV_Top {
      MergePhysics 1
@@ -1165,6 +1196,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       Offset 0.0001 0 -1.5566
       Angles 0 0 0
      }
+     Radius 0.5
      VisibilityAngle 15
     }
     UserActionContext "{5EAD79DA34CBEF49}" {
@@ -1347,5 +1379,5 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    }
   }
  }
- coords 70 1.001 187.676
+ coords 1316.936 37.851 2850.496
 }

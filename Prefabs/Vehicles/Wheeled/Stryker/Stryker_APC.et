@@ -8,6 +8,8 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
   }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
    CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+    }
     CargoCompartmentSlot Passenger_L01 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
      CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
       ParentContextList {
@@ -16,6 +18,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      }
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_L_1_idle"
+     }
+     DoorInfoList {
+      2
      }
     }
     CargoCompartmentSlot Passenger_L02 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
@@ -31,6 +36,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      }
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_L_2_idle"
+     }
+     DoorInfoList {
+      2
      }
      ContextName "Passenger_L02"
     }
@@ -48,6 +56,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_L_3_idle"
      }
+     DoorInfoList {
+      2
+     }
      ContextName "Passenger_L03"
     }
     CargoCompartmentSlot Passenger_L04 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
@@ -63,6 +74,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      }
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_L_4_idle"
+     }
+     DoorInfoList {
+      2
      }
      ContextName "Passenger_L04"
     }
@@ -80,6 +94,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_R_1_idle"
      }
+     DoorInfoList {
+      2
+     }
      ContextName "Passenger_R01"
     }
     CargoCompartmentSlot Passenger_R02 : "{1F65AB7E6CFBCBBF}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerR.conf" {
@@ -95,6 +112,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      }
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_R_2_idle"
+     }
+     DoorInfoList {
+      2
      }
      ContextName "Passenger_R02"
     }
@@ -112,6 +132,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_R_3_idle"
      }
+     DoorInfoList {
+      2
+     }
      ContextName "Passenger_R03"
     }
     CargoCompartmentSlot Passenger_R04 : "{1F65AB7E6CFBCBBF}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerR.conf" {
@@ -127,6 +150,9 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
      }
      PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
       PivotID "passenger_R_4_idle"
+     }
+     DoorInfoList {
+      2
      }
      ContextName "Passenger_R04"
     }
@@ -164,10 +190,6 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
       }
      }
     }
-   }
-  }
-  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
-   Simulation Wheeled "{4D8B26DEA5F25978}" {
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
@@ -237,4 +259,5 @@ Vehicle : "{DDC7044EF2E24467}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Base.et" {
    }
   }
  }
+ coords 1342.542 38 2936.917
 }
