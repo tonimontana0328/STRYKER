@@ -465,10 +465,12 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    }
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
+     DefaultOccupantName "Driver"
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
       ParentContextList {
        "hatch_driver" "driver_idle"
       }
+      CanAggregate 1
      }
      GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" {
       ParentContextList {
@@ -495,9 +497,11 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
       PivotID "driver_idle"
      }
+     SkipCharacterDoorAnimationsFromSeat 1
      DoorInfoList {
       0 1
      }
+     BaseCoverage 1
     }
    }
   }
@@ -1379,5 +1383,5 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    }
   }
  }
- coords 1316.936 37.851 2850.496
+ coords 1335.755 38 2880.818
 }

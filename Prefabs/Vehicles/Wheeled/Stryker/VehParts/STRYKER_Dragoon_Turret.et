@@ -106,6 +106,8 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      DoorInfoList {
       0 1
      }
+     BaseCoverage 1
+     CanOccupantEquipGadget 1
      m_DefaultOccupantData SCR_DefaultOccupantData "{61B6F2B36AFF52DA}" {
       m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
      }
@@ -299,5 +301,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    AutoVariablesBind 1
   }
  }
- coords 1333.611 38 2878.177
+ coords 1336.009 38 2868.585
 }
