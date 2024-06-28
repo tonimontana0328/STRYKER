@@ -452,12 +452,11 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      AnimDoorIndex 3
      ContextName "Ramp"
      Coverage 0.7
-     EntryPositionInfo PointInfo "{61B6F2B61E9323DA}" {
-      PivotID "v_backRamp"
+     EntryPositionInfo PointInfo "{5EE40BA2FCF68DD3}" {
+      Offset 0 0.1234 -4.0608
      }
-     ExitPositionInfo PointInfo "{61B6F2B619235E91}" {
-      PivotID "v_backRamp"
-      Angles 0 0 0
+     ExitPositionInfo PointInfo "{5B16A1F3A7D3342E}" {
+      Offset 0.4 0.1234 -4.0608
      }
      GetInTeleport 1
      GetOutTeleport 1
@@ -1004,7 +1003,6 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       }
      }
     }
-    InertiaOverrideEnabled 0
     InertiaOverride 95500 98500 28000
     Aerodynamics Aerodynamics "{5562A82E3F4CE5C2}" {
      ReferenceArea 7
@@ -1383,5 +1381,5 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    }
   }
  }
- coords 1335.755 38 2880.818
+ coords 1295.376 37.75 2856.395
 }
