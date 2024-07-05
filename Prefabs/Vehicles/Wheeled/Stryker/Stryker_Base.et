@@ -869,7 +869,6 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    m_fVehicleDamageSpeedThreshold 25
   }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {
-   Enabled 1
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     Engine Engine Engine {
      Inertia 1
@@ -902,12 +901,14 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
      }
      Differential Diff_01_03 {
       Type LSD
+      Ratio 1
       Strength 1
       Output0 "Diff_01"
       Output1 "Diff_03"
      }
      Differential Diff_02_04 {
       Type LSD
+      Ratio 1
       Strength 1
       Output0 "Diff_02"
       Output1 "Diff_04"
@@ -924,6 +925,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
        Output1 "Wheel_R01"
       }
       Suspension Suspension "{4D8B26DFF8859A7B}" : "{45C78A0CBB364934}Prefabs/Vehicles/Wheeled/Stryker/Configs/StrykerSuspension.conf" {
+       MaxSteeringAngle 28
        SpringRate 180
       }
       Wheel Wheel "{4D8B26DFFE211745}" : "{9453466509C3E109}Prefabs/Vehicles/Wheeled/Stryker/Configs/StrykerWheels.conf" {
@@ -1381,5 +1383,5 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    }
   }
  }
- coords 1295.376 37.75 2856.395
+ coords 1310.071 37.745 2858.369
 }
