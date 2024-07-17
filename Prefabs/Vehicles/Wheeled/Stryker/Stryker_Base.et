@@ -1377,11 +1377,12 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
    AllowCrossHierarchy 1
   }
   VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
    AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
     AnimGraph "{509522ED511E9EFE}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL.agr"
     AnimInstance "{D8F84469B3F2854B}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL_player.asi"
    }
   }
  }
- coords 1310.071 37.745 2858.369
+ coords 78.891 0 1201.046
 }

@@ -259,7 +259,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    }
   }
   VehicleAnimationComponent "{5C6692DD835B0AEA}" {
-   AnimGraph "{66618A6A119CAD93}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Graph.agr"
+   AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
    AnimInstance "{DAA855714EBFE43E}Prefabs/Vehicles/Core/Vehicles_Base_Empty.asi"
    AnimInjection AnimationAttachmentInfo "{5C6692DD835B0AEB}" {
     AnimGraph "{509522ED511E9EFE}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL.agr"
@@ -269,5 +269,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    AutoVariablesBind 1
   }
  }
- coords 1342.316 38.016 2863.687
+ coords 85.832 0 1197.082
 }
