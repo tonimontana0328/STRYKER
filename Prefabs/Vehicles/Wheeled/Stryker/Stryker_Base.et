@@ -416,7 +416,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
   }
   RigidBody "{51DAA09FECF52BBF}" {
    Mass 17200
-   CenterOfMass 0 1 0.5
+   CenterOfMass 0 1 0.26
    LinearSleepingThreashold 0.4
    AngularSleepingThreashold 0.5
   }
@@ -1005,6 +1005,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
       }
      }
     }
+    InertiaOverrideEnabled 1
     InertiaOverride 95500 98500 28000
     Aerodynamics Aerodynamics "{5562A82E3F4CE5C2}" {
      ReferenceArea 7
