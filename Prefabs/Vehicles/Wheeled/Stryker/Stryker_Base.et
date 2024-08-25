@@ -416,7 +416,7 @@ Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
   }
   RigidBody "{51DAA09FECF52BBF}" {
    Mass 17200
-   CenterOfMass 0 1 0.26
+   CenterOfMass 0 1 0.5
    LinearSleepingThreashold 0.4
    AngularSleepingThreashold 0.5
   }
