@@ -12,7 +12,6 @@ GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
      DamageReduction 0
      DamageThreshold 0
      "Collision multiplier" 0
-     m_fPassDamageToParentScale 1
      m_pDestructionHandler SCR_DestructionBaseHandler "{60FA022F59E9E4B1}" {
      }
      m_vParticleOffset 0 0 0
@@ -20,4 +19,5 @@ GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
    }
   }
  }
+ coords 1337.421 41.816 2946.186
 }

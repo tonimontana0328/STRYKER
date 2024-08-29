@@ -1,5 +1,5 @@
-GameEntity : "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/STRYKER_MGS_Turret.et" {
- ID "51ACD0965653D003"
+Turret : "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_MGS_Turret.et" {
+ ID "0000000000000001"
  components {
   MeshObject "{51ACD09C4E0B7D16}" {
    Materials {
@@ -12,15 +12,20 @@ GameEntity : "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/STRYKER_MGS_Tur
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
-     DoorInfoList {
-      CompartmentDoorInfo "{50B917CA9C90BD91}" {
-       AnimDoorIndex 2
-       EntryPositionInfo PointInfo "{50B917CA96E757AA}" {
-       }
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList + {
+       "gunner"
       }
      }
-     m_DefaultOccupantData SCR_DefaultOccupantData "{5C6692DD835AA501}" {
-      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList +{
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList +{
+       }
+      }
      }
     }
    }
@@ -28,7 +33,6 @@ GameEntity : "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/STRYKER_MGS_Tur
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
    WeaponTemplate "{EAC885937BFB0566}Prefabs/Weapons/HeavyWeapons/MGS_Cannon_MERDC.et"
   }
-  VehicleAnimationComponent "{5C6692DD835B0AEA}" {
-  }
  }
+ coords 1325.16 38 2901.375
 }

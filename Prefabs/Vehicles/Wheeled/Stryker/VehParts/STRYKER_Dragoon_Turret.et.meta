@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DAA1E2C22905F361}Prefabs/Vehicles/Wheeled/Stryker/STRYKER_Dragoon_Turret.et"
+ Name "{DAA1E2C22905F361}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_Dragoon_Turret.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }

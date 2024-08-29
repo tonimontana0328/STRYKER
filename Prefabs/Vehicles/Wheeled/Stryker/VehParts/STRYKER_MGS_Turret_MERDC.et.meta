@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{4C4BD0212190E7BA}Prefabs/Vehicles/Wheeled/Stryker/STRYKER_MGS_Turret_MERDC.et"
+ Name "{4C4BD0212190E7BA}Prefabs/Vehicles/Wheeled/Stryker/VehParts/STRYKER_MGS_Turret_MERDC.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }

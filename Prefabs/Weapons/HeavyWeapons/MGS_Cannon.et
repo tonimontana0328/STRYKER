@@ -127,10 +127,10 @@ GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
      AnimInstance "{E2DF83DEEE9355A1}Assets/Weapons/HeavyWeapons/workspaces/Cannon_weapon.asi"
      AlwaysActive 1
     }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
    }
-   IkObstructionEnabled 1
-   obstructionTestBreakingThreshold 0.7
-   ObstructionAlphaThreshold 1
    SoundInt 1030000
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
     Name "105mm Cannon"
@@ -140,4 +140,5 @@ GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
    CanBeOnSling 1
   }
  }
+ coords 1343.979 37.971 2945.855
 }

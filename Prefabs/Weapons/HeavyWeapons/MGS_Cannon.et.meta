@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6CD42085EBC53272}Prefabs/Weapons/Core/MGS_Cannon.et"
+ Name "{6CD42085EBC53272}Prefabs/Weapons/HeavyWeapons/MGS_Cannon.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }
